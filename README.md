@@ -1,4 +1,5 @@
 *Casserole*
+
 This programme has been forked from Gnome Recipes, and it aims to collect, store and share cooking recipes among users. 
 So far, the programme is the same as the original, but soon it will start to have changes such as added features, bugs fixing and proper packaging. 
 
