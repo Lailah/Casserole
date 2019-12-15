@@ -1,0 +1,161 @@
+<page xmlns="http://projectmallard.org/1.0/"
+  xmlns:its="http://www.w3.org/2005/11/its"
+  type="topic"
+  id="find-recipe">
+  
+  <info>
+    <link type="guide" xref="index#manage" group="second"/>
+    <desc>Find a recipe by name, category, cuisine, or chef.</desc>
+    <revision pkgversion="3.24" version="0.1" date="2017-03-16" status="draft"/>
+    <credit type="author">
+      <name>Paul Cutler</name>
+      <email its:translate="no">pcutler@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 4.0</p>
+    </license>
+  </info>
+  
+  <title>Search Recipes</title>
+
+  <section id="search">
+  <title>Search by Recipe Name, Ingredient or Chef</title>
+  <p>Press the search button <media type="image" mime="image/png" 
+  src="images/search.png" its:translate="yes">
+  <span its:translate="yes">Search</span></media> and enter your search query.
+  The search results can include:</p>
+  
+  <list>
+    <item>
+      <p>Recipes that include the text you searched for.</p>
+    </item>
+    <item>
+      <p>Ingredients that include the text you searched for.</p>
+    </item>
+        <item>
+      <p>Chef names.</p>
+    </item>
+  </list>
+  
+  <p>You can also do a more narrow search by category.  
+  Press the search button <media type="image" mime="image/png" 
+  src="images/search.png" its:translate="yes">
+  <span its:translate="yes">Search</span></media> 
+  and down icon <media type="image" mime="image/png" 
+  src="images/down.png" its:translate="yes">
+  <span its:translate="yes">Down</span></media> 
+  and choose from one or more categories.</p>
+    <list>
+      <item>
+        <p>Meal
+        </p>
+      </item>
+      <item>
+        <p>Spiciness
+        </p>
+      </item>
+      <item>
+        <p>Dietary restrictions
+        </p>
+      </item>
+      <item>
+        <p>Ingredients
+        </p>
+      </item>
+    </list>
+  <p><app>Recipes</app> will add a tag for the category you selected
+  and display it in the search bar.  You can then enter text to search 
+  within that category and tag.</p>
+  <p>To remove the tag from search, press <gui>x</gui> on the tag 
+  in the search bar.</p>
+  </section>
+  
+  <section id="categories">
+  <title>Search by Categories</title>
+  <p>When you create a recipe, you can select if a recipe is in a category,
+  such as vegan or nut free.  To search by category:</p>
+  <steps>
+    <item><p>From the main <app>Recipes</app> window scroll down to
+  <gui>Categories</gui>.  
+  </p></item>
+    <item>
+      <p>You can also expand the Categories list by 
+      pressing the down icon<media type="image" mime="image/png" 
+      src="images/down.png" its:translate="yes">
+      <span its:translate="yes">Down</span></media> to show all Categories.
+      </p>
+    </item>
+  <item>
+    <p>Press the <gui>Category</gui> to view all recipes in that
+    Category.
+    </p>
+  </item>
+  </steps>
+  
+  <p>If you choose from the vegan, vegetarian, dairy-free, gluten-free or 
+  nut-free categories, the search results will also display a description
+  of the Category with a <gui>Read More</gui> link you can click to learn 
+  more about the Category.</p>
+
+  <p>Note that the information about dietary restrictions is provided by
+  the recipe authors themselves and cannot be guaranteed to be accurate.
+  Please always double-check the ingredients if you are serving a person
+  with a gluten or dairy intolerance.</p>
+  </section>
+  
+  <section id="ingredients">
+  <title>Search for recipes with or without a specific ingredient</title>
+    <p>You can search for recipes that include or do not include a specific
+    ingredient.</p>
+    <steps>
+      <item>
+        <p>Press the down arrow <media type="image" mime="image/png" 
+        src="images/down.png" its:translate="yes">
+        <span its:translate="yes">Down</span></media> in the search bar.</p>
+      </item>
+      <item>
+        <p>Select the <gui>Ingredients</gui> drop down box.</p>
+      </item>
+      <item>
+        <p>Select an ingredient from the list, such as <em>Banana</em>.</p>
+      </item>
+    </steps>
+    <p>A tag for that ingredient, such as <em>Banana</em>, will be displayed 
+    in the search bar and all recipes that include that bananas will be 
+    displayed.  If there are no recipes that match, <gui>No recipes found</gui>
+    will be displayed.  Press the tag in the search bar for <gui>Banana</gui>
+    and the tag will now show <gui>No Banana</gui> and all recipes that do not
+    include bananas in the recipe will be displayed.  
+    To remove the tag from search, press <gui>x</gui> on the tag 
+    in the search bar.</p>
+  </section>
+  
+  <section id="cuisines">
+  <title>Search by Cuisines</title>
+  <p>You can also search for a recipe by what type of cuisine the recipe is 
+  or region it is from.  This also includes searching for seasonal recipes that 
+  might be made during certain holidays or times of year.</p>
+  <steps>
+    <item>
+      <p>In the top menu bar of <app>Recipes</app>, press the
+      <gui style="button">Cuisines</gui> button.</p>
+    </item>
+    <item>
+      <p>A list of cuisines from around the world with brief descriptions
+      are displayed.  Click on a world cuisine to see all recipes in that
+      category sorted by the type of dish.
+      </p>
+    </item>
+    <item>
+      <p>Scroll down to see a list of seasonal categories and press the
+      down icon <media type="image" mime="image/png" 
+      src="images/down.png" its:translate="yes">
+      <span its:translate="yes">Down</span></media> to see all 
+      seasonal categories.</p>
+    </item>
+    <item>
+      <p>Select a holiday or season to show all recipes that match.</p>
+    </item>
+  </steps>
+  </section>  
+</page>

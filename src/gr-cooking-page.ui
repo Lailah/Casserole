@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface domain="gnome-recipes">
+  <template class="GrCookingPage" parent="GtkBox">
+    <property name="visible">True</property>
+    <property name="orientation">vertical</property>
+    <child>
+      <object class="GtkOverlay">
+        <property name="visible">1</property>
+        <child type="overlay">
+          <object class="GtkBox" id="mini_timer_box">
+            <property name="visible">1</property>
+            <property name="orientation">vertical</property>
+            <property name="halign">start</property>
+            <property name="valign">start</property>
+            <property name="margin">10</property>
+            <property name="spacing">10</property>
+          </object>
+        </child>
+        <child type="overlay">
+          <object class="GtkRevealer" id="prev_revealer">
+            <property name="visible">1</property>
+            <property name="halign">start</property>
+            <property name="valign">center</property>
+            <property name="transition-type">crossfade</property>
+            <style>
+              <class name="osd"/>
+            </style>
+            <child>
+              <object class="GtkButton" id="prev_step_button">
+                <property name="visible">1</property>
+                <signal name="clicked" handler="prev_step" swapped="yes"/>
+                <style>
+                  <class name="image-button"/>
+                  <class name="osd"/>
+                </style>
+                <child>
+                  <object class="GtkImage">
+                    <property name="visible">1</property>
+                    <property name="icon-name">pan-start-symbolic</property>
+                    <property name="pixel-size">32</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child type="overlay">
+          <object class="GtkRevealer" id="notification_revealer">
+            <property name="visible">1</property>
+            <property name="halign">center</property>
+            <property name="valign">start</property>
+            <child>
+              <object class="GtkFrame">
+                <property name="visible">1</property>
+                <style>
+                  <class name="app-notification"/>
+                </style>
+                <child>
+                  <object class="GtkBox">
+                    <property name="visible">1</property>
+                    <child>
+                      <object class="GtkLabel" id="notification_label">
+                        <property name="visible">1</property>
+                        <property name="halign">start</property>
+                        <property name="label">Time is up!</property>
+                        <style>
+                          <class name="notification-label"/>
+                        </style>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkButton">
+                        <property name="visible">1</property>
+                        <property name="focus-on-click">0</property>
+                        <property name="label" translatable="yes">Show</property>
+                        <signal name="clicked" handler="goto_timer" swapped="yes"/>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkButton">
+                        <property name="visible">1</property>
+                        <property name="focus-on-click">0</property>
+                        <property name="relief">none</property>
+                        <signal name="clicked" handler="close_notification" swapped="yes"/>
+                        <style>
+                          <class name="image-button"/>
+                        </style>
+                        <child>
+                          <object class="GtkImage">
+                            <property name="visible">1</property>
+                            <property name="icon-name">window-close-symbolic</property>
+                            <property name="icon-size">1</property>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child type="overlay">
+          <object class="GtkRevealer" id="close_revealer">
+            <property name="visible">1</property>
+            <property name="halign">end</property>
+            <property name="valign">start</property>
+            <property name="transition-type">crossfade</property>
+            <child>
+              <object class="GtkButton">
+                <property name="visible">1</property>
+                <signal name="clicked" handler="stop_cooking" swapped="yes"/>
+                <style>
+                  <class name="image-button"/>
+                  <class name="osd"/>
+                </style>
+                <child>
+                  <object class="GtkImage">
+                    <property name="visible">1</property>
+                    <property name="icon-name">window-close-symbolic</property>
+                    <property name="pixel-size">32</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child type="overlay">
+          <object class="GtkRevealer" id="next_revealer">
+            <property name="visible">1</property>
+            <property name="halign">end</property>
+            <property name="valign">center</property>
+            <property name="transition-type">crossfade</property>
+            <child>
+              <object class="GtkButton" id="next_step_button">
+                <property name="visible">1</property>
+                <signal name="clicked" handler="next_step" swapped="yes"/>
+                <style>
+                  <class name="image-button"/>
+                  <class name="osd"/>
+                </style>
+                <child>
+                  <object class="GtkImage">
+                    <property name="visible">1</property>
+                    <property name="icon-name">pan-end-symbolic</property>
+                    <property name="pixel-size">32</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child type="overlay">
+          <object class="GtkButton" id="done_button">
+            <property name="halign">end</property>
+            <property name="valign">end</property>
+            <property name="margin">100</property>
+            <property name="label" translatable="yes">Done</property>
+            <signal name="clicked" handler="stop_cooking" swapped="yes"/>
+            <style>
+              <class name="suggested-action"/>
+              <class name="cooking-button"/>
+            </style>
+          </object>
+        </child>
+        <child type="overlay">
+          <object class="GtkRevealer" id="confirm_revealer">
+            <property name="halign">center</property>
+            <property name="valign">center</property>
+            <property name="transition-type">crossfade</property>
+            <property name="transition-duration">1000</property>
+            <signal name="notify::child-revealed" handler="on_confirm_revealed" swapped="yes"/>
+            <child>
+              <object class="GtkBox" id="confirm_overlay">
+                <property name="visible">1</property>
+                <property name="orientation">vertical</property>
+                <style>
+                  <class name="cooking"/>
+                  <class name="overlay"/>
+                  <class name="confirm"/>
+                </style>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">1</property>
+                    <property name="label" translatable="yes">Stop Cooking?</property>
+                    <style>
+                      <class name="heading"/>
+                    </style>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">1</property>
+                    <property name="label" translatable="yes">Some timers are still running.</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">1</property>
+                    <property name="label" translatable="yes">Recipes can keep the timers running
+even if you leave cooking mode now.</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkButtonBox">
+                    <property name="visible">1</property>
+                    <property name="valign">end</property>
+                    <property name="layout-style">expand</property>
+                    <child>
+                      <object class="GtkButton">
+                        <property name="visible">1</property>
+                        <property name="label" translatable="yes">Keep Cooking</property>
+                        <signal name="clicked" handler="keep_cooking" swapped="yes"/>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkButton">
+                        <property name="visible">1</property>
+                        <property name="label" translatable="yes">Stop Timers</property>
+                        <signal name="clicked" handler="stop_timers" swapped="yes"/>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkButton">
+                        <property name="visible">1</property>
+                        <property name="label" translatable="yes">Continue Timers</property>
+                        <signal name="clicked" handler="continue_timers" swapped="yes"/>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child type="overlay">
+          <object class="GtkRevealer" id="overlay_revealer">
+            <property name="halign">center</property>
+            <property name="valign">center</property>
+            <property name="transition-type">crossfade</property>
+            <property name="transition-duration">1000</property>
+            <signal name="notify::child-revealed" handler="on_child_revealed" swapped="yes"/>
+            <child>
+              <object class="GtkGrid" id="cooking_overlay">
+                <property name="visible">1</property>
+                <property name="row-spacing">20</property>
+                <property name="column-spacing">20</property>
+                <style>
+                  <class name="cooking"/>
+                  <class name="overlay"/>
+                </style>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">1</property>
+                    <property name="label" translatable="yes">Controls</property>
+                    <style>
+                      <class name="heading"/>
+                    </style>
+                  </object>
+                  <packing>
+                    <property name="left-attach">0</property>
+                    <property name="top-attach">0</property>
+                    <property name="width">2</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkImage">
+                    <property name="visible">1</property>
+                    <property name="halign">start</property>
+                    <property name="resource">/org/gnome/Recipes/help-key-press.png</property>
+                  </object>
+                  <packing>
+                    <property name="left-attach">0</property>
+                    <property name="top-attach">1</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">1</property>
+                    <property name="xalign">0</property>
+                    <property name="label" translatable="yes">To advance to the next step, press any key on the
+keyboard.</property>
+                  </object>
+                  <packing>
+                    <property name="left-attach">1</property>
+                    <property name="top-attach">1</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkImage">
+                    <property name="visible">1</property>
+                    <property name="halign">start</property>
+                    <property name="resource">/org/gnome/Recipes/help-key-double-press.png</property>
+                  </object>
+                  <packing>
+                    <property name="left-attach">0</property>
+                    <property name="top-attach">2</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">1</property>
+                    <property name="xalign">0</property>
+                    <property name="label" translatable="yes">To go back to the previous step, doubletap any key.</property>
+                  </object>
+                  <packing>
+                    <property name="left-attach">1</property>
+                    <property name="top-attach">2</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkImage">
+                    <property name="visible">1</property>
+                    <property name="halign">start</property>
+                    <property name="resource">/org/gnome/Recipes/help-cursor-keys.png</property>
+                  </object>
+                  <packing>
+                    <property name="left-attach">0</property>
+                    <property name="top-attach">3</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">1</property>
+                    <property name="xalign">0</property>
+                    <property name="label" translatable="yes">Alternatively, you can use the cursor keys to
+quickly seek within the directions.</property>
+                  </object>
+                  <packing>
+                    <property name="left-attach">1</property>
+                    <property name="top-attach">3</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkImage">
+                    <property name="visible">1</property>
+                    <property name="halign">start</property>
+                    <property name="resource">/org/gnome/Recipes/help-esc-key.png</property>
+                    <property name="pixel-size">48</property>
+                  </object>
+                  <packing>
+                    <property name="left-attach">0</property>
+                    <property name="top-attach">4</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">1</property>
+                    <property name="xalign">0</property>
+                    <property name="label" translatable="yes">To exit the process, press the Escape key.</property>
+                  </object>
+                  <packing>
+                    <property name="left-attach">1</property>
+                    <property name="top-attach">4</property>
+                  </packing>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkScrolledWindow">
+            <property name="visible">1</property>
+            <child>
+              <object class="GtkEventBox" id="event_box">
+                <property name="visible">1</property>
+                <property name="can-focus">1</property>
+                <signal name="motion-notify-event" handler="motion_notify"/>
+                <child>
+                  <object class="GrCookingView" id="cooking_view">
+                    <property name="wide">1</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

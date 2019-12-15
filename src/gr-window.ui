@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface domain="gnome-recipes">
+  <template class="GrWindow" parent="GtkApplicationWindow">
+    <property name="resizable">1</property>
+    <signal name="key-press-event" handler="window_keypress_handler_before"/>
+    <signal name="key-press-event" handler="window_keypress_handler_after" after="yes"/>
+    <signal name="button-press-event" handler="window_buttonpress_handler" after="yes"/>
+    <signal name="delete-event" handler="window_delete_handler"/>
+    <signal name="map" handler="window_mapped_handler" after="yes"/>
+    <child type="titlebar">
+      <object class="GtkHeaderBar" id="header">
+        <property name="visible">1</property>
+        <property name="show-close-button">1</property>
+        <property name="title" translatable="yes">Recipes</property>
+        <child>
+          <object class="GtkStack" id="header_start_stack">
+            <property name="visible">1</property>
+            <property name="hhomogeneous">0</property>
+            <child>
+              <object class="GtkButton" id="new_recipe_button">
+                <property name="visible">1</property>
+                <property name="use-underline">1</property>
+                <property name="label" translatable="yes">_New Recipe</property>
+                <signal name="clicked" handler="new_recipe" swapped="yes"/>
+              </object>
+              <packing>
+                <property name="name">main</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="back_button">
+                <property name="visible">1</property>
+                <signal name="clicked" handler="go_back" swapped="yes"/>
+                <style>
+                  <class name="image-button"/>
+                </style>
+                <accelerator key="Left" modifiers="GDK_MOD1_MASK" signal="activate"/>
+                <child internal-child="accessible">
+                  <object class="AtkObject">
+                    <property name="accessible-name" translatable="yes">Go back</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkImage">
+                    <property name="visible">1</property>
+                    <property name="icon-name">go-previous-symbolic</property>
+                    <property name="icon-size">1</property>
+                  </object>
+                </child>
+              </object>
+              <packing>
+                <property name="name">back</property>
+              </packing>
+            </child>
+          </object>
+        </child>
+        <child type="title">
+          <object class="GtkStack" id="header_title_stack">
+            <property name="visible">1</property>
+            <property name="hhomogeneous">0</property>
+            <child>
+              <object class="GtkStackSwitcher">
+                <property name="visible">1</property>
+                <property name="stack">main_stack</property>
+              </object>
+              <packing>
+                <property name="name">main</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel">
+                <property name="visible">1</property>
+                <property name="label" bind-source="header" bind-property="title"/>
+                <property name="ellipsize">end</property>
+                <attributes>
+                  <attribute name="weight" value="bold"/>
+                </attributes>
+              </object>
+              <packing>
+                <property name="name">title</property>
+              </packing>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkStack" id="header_end_stack">
+            <property name="visible">1</property>
+            <property name="hhomogeneous">0</property>
+            <child>
+              <object class="GtkToggleButton" id="search_button">
+                <property name="visible">1</property>
+                <style>
+                  <class name="image-button"/>
+                </style>
+                <child internal-child="accessible">
+                  <object class="AtkObject">
+                    <property name="accessible-name" translatable="yes">Search</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkImage">
+                    <property name="visible">1</property>
+                    <property name="icon-name">edit-find-symbolic</property>
+                    <property name="icon-size">1</property>
+                  </object>
+                </child>
+              </object>
+              <packing>
+                <property name="name">main</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="cooking_button">
+                <property name="visible">1</property>
+                <property name="use-underline">1</property>
+                <property name="label" translatable="yes">_Start Cooking</property>
+                <signal name="clicked" handler="start_cooking" swapped="yes"/>
+                <style>
+                  <class name="suggested-action"/>
+                </style>
+              </object>
+              <packing>
+                <property name="name">details</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="save_button">
+                <property name="visible">1</property>
+                <property name="use-underline">1</property>
+                <property name="label" translatable="yes">_Save</property>
+                <signal name="clicked" handler="add_recipe" swapped="yes"/>
+                <style>
+                  <class name="suggested-action"/>
+                </style>
+              </object>
+              <packing>
+                <property name="name">edit</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton">
+                <property name="visible">1</property>
+                <property name="use-underline">1</property>
+                <property name="label" translatable="yes">_Done Shopping</property>
+                <signal name="clicked" handler="done_shopping" swapped="yes"/>
+                <style>
+                  <class name="destructive-action"/>
+                </style>
+              </object>
+              <packing>
+                <property name="name">shopping</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkBox">
+                <property name="visible">1</property>
+                <property name="orientation">horizontal</property>
+                <property name="spacing">6</property>
+                <child>
+                  <object class="GtkMenuButton">
+                    <property name="visible">1</property>
+                    <property name="popover">sort_popover</property>
+                    <style>
+                      <class name="text-button"/>
+                    </style>
+                    <child>
+                      <object class="GtkBox">
+                        <property name="visible">1</property>
+                        <property name="orientation">horizontal</property>
+                        <property name="spacing">10</property>
+                        <property name="halign">fill</property>
+                        <child>
+                          <object class="GtkLabel" id="sort_by_label">
+                            <property name="visible">1</property>
+                            <property name="label">Sorted by Name</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkImage">
+                            <property name="visible">1</property>
+                            <property name="icon-name">pan-down-symbolic</property>
+                            <property name="icon-size">1</property>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkToggleButton" id="search_button2">
+                    <property name="visible">1</property>
+                    <property name="active" bind-source="search_button" bind-property="active" bind-flags="bidirectional"/>
+                    <style>
+                      <class name="image-button"/>
+                    </style>
+                    <child internal-child="accessible">
+                      <object class="AtkObject">
+                        <property name="accessible-name" translatable="yes">Search</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImage">
+                        <property name="visible">1</property>
+                        <property name="icon-name">edit-find-symbolic</property>
+                        <property name="icon-size">1</property>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+              <packing>
+                <property name="name">list</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="pack-type">end</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="GtkBox">
+        <property name="visible">1</property>
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GrQueryEditor" type-func="gr_query_editor_get_type" id="search_bar">
+            <property name="visible">1</property>
+            <property name="search-mode-enabled" bind-source="search_button" bind-property="active" bind-flags="bidirectional"/>
+            <signal name="changed" handler="search_changed" swapped="yes"/>
+            <signal name="cancel" handler="stop_search" swapped="yes"/>
+            <signal name="notify::search-mode-enabled" handler="search_mode_changed" swapped="yes"/>
+          </object>
+        </child>
+        <child>
+          <object class="GtkOverlay">
+            <property name="visible">1</property>
+            <child type="overlay">
+              <object class="GtkRevealer" id="shopping_done_revealer">
+                <property name="visible">1</property>
+                <property name="halign">center</property>
+                <property name="valign">start</property>
+                <child>
+                  <object class="GtkFrame">
+                    <property name="visible">1</property>
+                    <style>
+                      <class name="app-notification"/>
+                    </style>
+                    <child>
+                      <object class="GtkBox">
+                        <property name="visible">1</property>
+                        <property name="spacing">10</property>
+                        <child>
+                          <object class="GtkLabel">
+                            <property name="visible">1</property>
+                            <property name="hexpand">1</property>
+                            <property name="halign">start</property>
+                            <property name="label" translatable="yes">All ingredients marked as stocked!</property>
+                            <style>
+                              <class name="notification-label"/>
+                            </style>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkButton">
+                            <property name="visible">1</property>
+                            <property name="focus-on-click">0</property>
+                            <property name="label" translatable="yes">_Undo</property>
+                            <property name="use-underline">1</property>
+                            <signal name="clicked" handler="back_to_shopping" swapped="yes"/>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkButton">
+                            <property name="visible">1</property>
+                            <property name="focus-on-click">0</property>
+                            <property name="relief">none</property>
+                            <signal name="clicked" handler="close_shopping_done" swapped="yes"/>
+                            <style>
+                              <class name="image-button"/>
+                            </style>
+                            <child>
+                              <object class="GtkImage">
+                                <property name="visible">1</property>
+                                <property name="icon-name">window-close-symbolic</property>
+                                <property name="icon-size">1</property>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child type="overlay">
+              <object class="GtkRevealer" id="shopping_added_revealer">
+                <property name="visible">1</property>
+                <property name="halign">center</property>
+                <property name="valign">start</property>
+                <child>
+                  <object class="GtkFrame">
+                    <property name="visible">1</property>
+                    <style>
+                      <class name="app-notification"/>
+                    </style>
+                    <child>
+                      <object class="GtkBox">
+                        <property name="visible">1</property>
+                        <property name="spacing">10</property>
+                        <child>
+                          <object class="GtkLabel">
+                            <property name="visible">1</property>
+                            <property name="hexpand">1</property>
+                            <property name="halign">start</property>
+                            <property name="label" translatable="yes">Ingredients to buy added.</property>
+                            <style>
+                              <class name="notification-label"/>
+                            </style>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkButton">
+                            <property name="visible">1</property>
+                            <property name="focus-on-click">0</property>
+                            <property name="label" translatable="yes">View Shopping List</property>
+                            <signal name="clicked" handler="do_shopping_list" swapped="yes"/>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkButton">
+                            <property name="visible">1</property>
+                            <property name="focus-on-click">0</property>
+                            <property name="relief">none</property>
+                            <signal name="clicked" handler="close_shopping_added" swapped="yes"/>
+                            <style>
+                              <class name="image-button"/>
+                            </style>
+                            <child>
+                              <object class="GtkImage">
+                                <property name="visible">1</property>
+                                <property name="icon-name">window-close-symbolic</property>
+                                <property name="icon-size">1</property>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child type="overlay">
+              <object class="GtkRevealer" id="undo_revealer">
+                <property name="visible">1</property>
+                <property name="halign">center</property>
+                <property name="valign">start</property>
+                <child>
+                  <object class="GtkFrame">
+                    <property name="visible">1</property>
+                    <style>
+                      <class name="app-notification"/>
+                    </style>
+                    <child>
+                      <object class="GtkBox">
+                        <property name="visible">1</property>
+                        <property name="spacing">10</property>
+                        <child>
+                          <object class="GtkLabel" id="undo_label">
+                            <property name="visible">1</property>
+                            <property name="hexpand">1</property>
+                            <property name="halign">start</property>
+                            <style>
+                              <class name="notification-label"/>
+                            </style>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkButton">
+                            <property name="visible">1</property>
+                            <property name="focus-on-click">0</property>
+                            <property name="label" translatable="yes">Undo</property>
+                            <signal name="clicked" handler="do_undo" swapped="yes"/>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkButton">
+                            <property name="visible">1</property>
+                            <property name="focus-on-click">0</property>
+                            <property name="relief">none</property>
+                            <signal name="clicked" handler="close_undo" swapped="yes"/>
+                            <style>
+                              <class name="image-button"/>
+                            </style>
+                            <child>
+                              <object class="GtkImage">
+                                <property name="visible">1</property>
+                                <property name="icon-name">window-close-symbolic</property>
+                                <property name="icon-size">1</property>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child type="overlay">
+              <object class="GtkRevealer" id="remind_revealer">
+                <property name="visible">1</property>
+                <property name="halign">center</property>
+                <property name="valign">start</property>
+                <child>
+                  <object class="GtkFrame">
+                    <property name="visible">1</property>
+                    <style>
+                      <class name="app-notification"/>
+                    </style>
+                    <child>
+                      <object class="GtkBox">
+                        <property name="visible">1</property>
+                        <property name="spacing">10</property>
+                        <child>
+                          <object class="GtkLabel" id="remind_label">
+                            <property name="visible">1</property>
+                            <property name="hexpand">1</property>
+                            <property name="wrap">1</property>
+                            <property name="width-chars">40</property>
+                            <property name="max-width-chars">40</property>
+                            <property name="halign">start</property>
+                            <style>
+                              <class name="notification-label"/>
+                            </style>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkButton">
+                            <property name="visible">1</property>
+                            <property name="focus-on-click">0</property>
+                            <property name="label" translatable="yes">Send Update</property>
+                            <signal name="clicked" handler="do_remind" swapped="yes"/>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkButton">
+                            <property name="visible">1</property>
+                            <property name="focus-on-click">0</property>
+                            <property name="relief">none</property>
+                            <signal name="clicked" handler="close_remind" swapped="yes"/>
+                            <style>
+                              <class name="image-button"/>
+                            </style>
+                            <child>
+                              <object class="GtkImage">
+                                <property name="visible">1</property>
+                                <property name="icon-name">window-close-symbolic</property>
+                                <property name="icon-size">1</property>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child type="overlay">
+              <object class="GtkRevealer" id="export_done_revealer">
+                <property name="visible">1</property>
+                <property name="halign">center</property>
+                <property name="valign">start</property>
+                <child>
+                  <object class="GtkFrame">
+                    <property name="visible">1</property>
+                    <style>
+                      <class name="app-notification"/>
+                    </style>
+                    <child>
+                      <object class="GtkBox">
+                        <property name="visible">1</property>
+                        <property name="spacing">10</property>
+                        <child>
+                          <object class="GtkLabel">
+                            <property name="visible">1</property>
+                            <property name="hexpand">1</property>
+                            <property name="halign">center</property>
+                            <property name="label" translatable="yes">Shopping List has been exported to Todoist</property>
+                            <style>
+                              <class name="notification-label"/>
+                            </style>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkButton">
+                            <property name="visible">1</property>
+                            <property name="focus-on-click">0</property>
+                            <property name="relief">none</property>
+                            <signal name="clicked" handler="close_export_done" swapped="yes"/>
+                            <style>
+                              <class name="image-button"/>
+                            </style>
+                            <child>
+                              <object class="GtkImage">
+                                <property name="visible">1</property>
+                                <property name="icon-name">window-close-symbolic</property>
+                                <property name="icon-size">1</property>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkStack" id="main_stack">
+                <property name="visible">1</property>
+                <signal name="notify::visible-child-name" handler="visible_page_changed" swapped="yes"/>
+                <child>
+                  <object class="GrRecipesPage" id="recipes_page"/>
+                  <packing>
+                    <property name="name">recipes</property>
+                    <property name="title" translatable="yes">Recipes</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GrListPage" id="list_page"/>
+                  <packing>
+                    <property name="name">list</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GrListPage" id="transient_list_page"/>
+                  <packing>
+                    <property name="name">transient</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GrListPage" id="chef_page"/>
+                  <packing>
+                    <property name="name">chef</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GrShoppingPage" id="shopping_page">
+                    <signal name="notify::title" handler="shopping_title_changed" swapped="yes"/>
+                  </object>
+                  <packing>
+                    <property name="name">shopping</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GrSearchPage" id="search_page"/>
+                  <packing>
+                    <property name="name">search</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GrCuisinesPage" id="cuisines_page"/>
+                  <packing>
+                    <property name="name">cuisines</property>
+                    <property name="title" translatable="yes">Cuisines</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GrCuisinePage" id="cuisine_page"/>
+                  <packing>
+                    <property name="name">cuisine</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GrDetailsPage" id="details_page"/>
+                  <packing>
+                    <property name="name">details</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GrEditPage" id="edit_page">
+                    <signal name="notify::unsaved" handler="make_save_sensitive"/>
+                  </object>
+                  <packing>
+                    <property name="name">edit</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GrImagePage" id="image_page"/>
+                  <packing>
+                    <property name="name">image</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GrCookingPage" id="cooking_page"/>
+                  <packing>
+                    <property name="name">cooking</property>
+                  </packing>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+  <object class="GtkPopover" id="sort_popover">
+    <child>
+      <object class="GtkBox">
+        <property name="visible">1</property>
+        <property name="orientation">vertical</property>
+        <property name="margin">10</property>
+        <child>
+          <object class="GtkModelButton" id="sort_by_name_button">
+            <property name="visible">1</property>
+            <property name="role">radio</property>
+            <property name="active">1</property>
+            <property name="text" translatable="yes">Name</property>
+            <signal name="clicked" handler="sort_clicked"/>
+          </object>
+        </child>
+        <child>
+          <object class="GtkModelButton" id="sort_by_recency_button">
+            <property name="visible">1</property>
+            <property name="role">radio</property>
+            <property name="text" translatable="yes">Recency</property>
+            <signal name="clicked" handler="sort_clicked"/>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

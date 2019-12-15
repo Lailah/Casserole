@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/org/gnome/Recipes">
+    <file preprocess="xml-stripblanks">gr-category-tile.ui</file>
+    <file preprocess="xml-stripblanks">gr-chef-dialog.ui</file>
+    <file preprocess="xml-stripblanks">gr-chef-tile.ui</file>
+    <file preprocess="xml-stripblanks">gr-cooking-view.ui</file>
+    <file preprocess="xml-stripblanks">gr-cooking-page.ui</file>
+    <file preprocess="xml-stripblanks">gr-cuisine-tile.ui</file>
+    <file preprocess="xml-stripblanks">gr-cuisine-page.ui</file>
+    <file preprocess="xml-stripblanks">gr-cuisines-page.ui</file>
+    <file preprocess="xml-stripblanks">gr-details-page.ui</file>
+    <file preprocess="xml-stripblanks">gr-diet-row.ui</file>
+    <file preprocess="xml-stripblanks">gr-edit-page.ui</file>
+    <file preprocess="xml-stripblanks">gr-image-viewer.ui</file>
+    <file preprocess="xml-stripblanks">gr-image-page.ui</file>
+    <file preprocess="xml-stripblanks">gr-ingredient-row.ui</file>
+    <file preprocess="xml-stripblanks">gr-ingredients-viewer.ui</file>
+    <file preprocess="xml-stripblanks">gr-ingredients-viewer-row.ui</file>
+    <file preprocess="xml-stripblanks">gr-list-page.ui</file>
+    <file preprocess="xml-stripblanks">gr-meal-row.ui</file>
+    <file preprocess="xml-stripblanks">gr-recipes-page.ui</file>
+    <file preprocess="xml-stripblanks">gr-shopping-tile.ui</file>
+    <file preprocess="xml-stripblanks">gr-recipe-tile.ui</file>
+    <file preprocess="xml-stripblanks">gr-search-page.ui</file>
+    <file preprocess="xml-stripblanks">gr-shopping-page.ui</file>
+    <file preprocess="xml-stripblanks">gr-spice-row.ui</file>
+    <file preprocess="xml-stripblanks">gr-time-widget.ui</file>
+    <file preprocess="xml-stripblanks">gr-query-editor.ui</file>
+    <file preprocess="xml-stripblanks">gr-window.ui</file>
+    <file preprocess="xml-stripblanks">chef-conflict-dialog.ui</file>
+    <file preprocess="xml-stripblanks">recipe-conflict-dialog.ui</file>
+    <file preprocess="xml-stripblanks">recipe-export-dialog.ui</file>
+    <file preprocess="xml-stripblanks">recipe-whats-new-dialog.ui</file>
+    <file preprocess="xml-stripblanks">recipe-surprise.ui</file>
+    <file preprocess="xml-stripblanks">shopping-list-exporter-dialog.ui</file>
+    <file preprocess="xml-stripblanks">menus.ui</file>
+    <file>surprise.jpg</file>
+    <file>recipes.css</file>
+    <file>recipes-light.css</file>
+    <file>recipes-dark.css</file>
+    <file>cuisine.css</file>
+    <file>category.css</file>
+    <file>icons/16x16/apps/garlic-content-symbolic.symbolic.png</file>
+    <file>icons/24x24/apps/garlic-content-symbolic.symbolic.png</file>
+    <file>icons/32x32/apps/garlic-content-symbolic.symbolic.png</file>
+    <file>icons/48x48/apps/garlic-content-symbolic.symbolic.png</file>
+    <file>icons/symbolic/apps/garlic-content-symbolic.svg</file>
+    <file>icons/16x16/apps/spicy-content-symbolic.symbolic.png</file>
+    <file>icons/24x24/apps/spicy-content-symbolic.symbolic.png</file>
+    <file>icons/32x32/apps/spicy-content-symbolic.symbolic.png</file>
+    <file>icons/48x48/apps/spicy-content-symbolic.symbolic.png</file>
+    <file>icons/symbolic/apps/spicy-content-symbolic.svg</file>
+    <file>icons/16x16/apps/dairy-content-symbolic.symbolic.png</file>
+    <file>icons/24x24/apps/dairy-content-symbolic.symbolic.png</file>
+    <file>icons/32x32/apps/dairy-content-symbolic.symbolic.png</file>
+    <file>icons/48x48/apps/dairy-content-symbolic.symbolic.png</file>
+    <file>icons/symbolic/apps/dairy-content-symbolic.svg</file>
+    <file>icons/16x16/apps/egg-content-symbolic.symbolic.png</file>
+    <file>icons/24x24/apps/egg-content-symbolic.symbolic.png</file>
+    <file>icons/32x32/apps/egg-content-symbolic.symbolic.png</file>
+    <file>icons/48x48/apps/egg-content-symbolic.symbolic.png</file>
+    <file>icons/symbolic/apps/egg-content-symbolic.svg</file>
+    <file>icons/16x16/apps/wheat-content-symbolic.symbolic.png</file>
+    <file>icons/24x24/apps/wheat-content-symbolic.symbolic.png</file>
+    <file>icons/32x32/apps/wheat-content-symbolic.symbolic.png</file>
+    <file>icons/48x48/apps/wheat-content-symbolic.symbolic.png</file>
+    <file>icons/symbolic/apps/wheat-content-symbolic.svg</file>
+    <file>icons/16x16/apps/shopping-list-symbolic.symbolic.png</file>
+    <file>icons/24x24/apps/shopping-list-symbolic.symbolic.png</file>
+    <file>icons/32x32/apps/shopping-list-symbolic.symbolic.png</file>
+    <file>icons/48x48/apps/shopping-list-symbolic.symbolic.png</file>
+    <file>icons/symbolic/apps/shopping-list-symbolic.svg</file>
+    <file>built-with-builder-symbolic.symbolic.png</file>
+    <file>org.gnome.Recipes-symbolic.symbolic.png</file>
+    <file>org.gnome.Recipes.png</file>
+    <file>help-cursor-keys.png</file>
+    <file>help-esc-key.png</file>
+    <file>help-key-double-press.png</file>
+    <file>help-key-press.png</file>
+  </gresource>
+</gresources>

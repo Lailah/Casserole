@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface domain="gnome-recipes">
+  <template class="GrRecipeTile" parent="GtkButton">
+    <property name="visible">1</property>
+    <property name="halign">center</property>
+    <signal name="clicked" handler="show_details" swapped="True"/>
+    <style>
+      <class name="view"/>
+      <class name="tile"/>
+      <class name="recipe"/>
+    </style>
+    <child>
+      <object class="GtkEventBox" id="eboxbox">
+        <property name="visible">1</property>
+        <child>
+          <object class="GtkOverlay" id="box">
+            <property name="visible">1</property>
+            <style>
+              <class name="recipe"/>
+            </style>
+            <child>
+              <object class="GtkImage" id="image">
+                <property name="visible">1</property>
+              </object>
+            </child>
+            <child type="overlay">
+              <object class="GtkBox">
+                <property name="visible">1</property>
+                <property name="valign">end</property>
+                <property name="orientation">vertical</property>
+                <child>
+                  <object class="GtkBox">
+                    <property name="visible">1</property>
+                    <property name="halign">fill</property>
+                    <property name="orientation">horizontal</property>
+                    <style>
+                      <class name="recipe"/>
+                      <class name="name"/>
+                    </style>
+                    <child>
+                      <object class="GtkLabel" id="label">
+                        <property name="visible">1</property>
+                        <property name="valign">end</property>
+                        <property name="xalign">0</property>
+                        <property name="ellipsize">end</property>
+                        <style>
+                          <class name="recipe"/>
+                          <class name="name"/>
+                        </style>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImage" id="shared_icon">
+                        <property name="icon-name">emblem-shared-symbolic</property>
+                        <property name="icon-size">1</property>
+                        <property name="halign">end</property>
+                        <property name="margin-end">10</property>
+                        <property name="tooltip-text" translatable="yes">Contributed recipe</property>
+                        <style>
+                          <class name="dim-label"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">1</property>
+                      </packing>
+                    </child>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkLabel" id="author">
+                    <property name="visible">1</property>
+                    <property name="valign">end</property>
+                    <property name="xalign">0</property>
+                    <property name="ellipsize">end</property>
+                    <style>
+                      <class name="recipe"/>
+                      <class name="author"/>
+                    </style>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

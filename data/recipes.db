@@ -1,0 +1,1223 @@
+[Metadata]
+Version=1
+
+[R_Rice_Maize_Apple_Cake_by_florian]
+Name=Rice Maize Apple Cake
+Author=florian
+Description=Simple wheat-free yeast dough. You can use rice and maize flour from your local Asian food store.
+Cuisine=
+Season=
+Category=cake
+PrepTime=More than an hour
+CookTime=30 to 45 minutes
+Ingredients=200	g	Rice Flour	Dough\n160	g	White Maize Flour (gluten-free)	Dough\n40	g	Buckwheat Flour (gluten-free)	Dough\n5	g	Xanthan gum	Dough\n1	pkg	dry yeast	Dough\n80	g	Sugar	Dough\n1	pinch	Salt	Dough\n280	g	Rice drink	Dough\n3	lb	Boskoop apples	Apples\n1		Cinnamon sugar	Apples
+Instructions=Peel and wedge apples.\n\nMix dry ingredients for the dough.\n\nAdd rice drink to dough.\n\nKnead dough with a dough mixer with dough hook until no small clumps remain.\n\n[timer:00:20:00]Let the dough rest.\n\nPlace parchment paper on a baking tray.\n\nSpread the dough onto the parchment paper.\n\nPush the apple wedges into the dough.\n\nPut cinnamon sugar on top.\n\n[timer:00:45:00][temperature:180C]Bake in the oven.
+Notes=
+Serves=10
+Yield=10 servings
+Spiciness=15
+Diets=31
+DefaultImage=0
+Images=rice-maize-apple-cake.jpg;
+Created=2017-11-11 20:34:53
+Modified=2017-11-11 21:55:28
+
+[R_Tzatziki_sauce_by_eugene]
+Name=Tzatziki sauce
+Author=eugene
+Description=\n\s\s\s
+Cuisine=Greek
+Season=
+Category=Sauce
+PrepTime=Less than 15 minutes
+CookTime=
+Ingredients=1		Cucumber	Ingredients\n2	Cloves	Garlic Minced	Ingredients\n¼	cup	Extra Virgin Olive Oil	Ingredients\n18	oz	Strained Greek yogurt	Ingredients\n2	tbsp	Red wine vinegar	Ingredients\n1	pinch	Salt and pepper	Ingredients\n
+Instructions=To prepare this traditional Greek tzatziki sauce recipe, remove the skin and the seeds of the cucumber and grate it into a large bowl. Season with salt and pepper and leave aside for 10 minutes.\n\n    Wrap the grated cucumber in a towel and squeeze, in order to get rid of the excess water.\n\n    Assemble the tzatziki sauce. In a bowl, add the cucumber, the minced garlic and olive oil, the yogurt, 1-2 tbsps of red wine vinegar, a pinch of salt and blend, until the ingredients are combined. Store the tzatziki sauce in the fridge and always serve cold. (Alternatively, if you have a blender, pour in the olive oil and garlic and blend until combined. Then mix with the rest of the ingredients using a spoon. This will help the garlic to mix better with the rest of the ingredients).\n\n    Prepare this traditional tzatziki sauce for your friends and family and serve as a delicious dip with some warm pita breads aside, or as a sauce for Greek-style souvlaki. Enjoy!
+Notes=
+Serves=4
+Yield=4 servings
+Spiciness=15
+Diets=0
+DefaultImage=0
+Images=tzatzki.jpg;
+Created=2017-11-11 15:5:30
+Modified=2017-11-11 15:5:30
+
+[R_Soy_Chicken__See_Yao_Gai__by_eugene]
+Name=Soy Chicken (See Yao Gai)
+Author=eugene
+Description=This recipe must be followed to the TEE. If you do not add the soy sauce it then becomes Bok Yao Gai (White Boiled Chicken). Never the less a very easy way of making a Chinese boiled chicken. (My recipe tested over 20 years)
+Cuisine=Chinese
+Season=
+Category=Chicken
+PrepTime=10 minutes
+CookTime=4 hours
+Ingredients=1		whole chicken, about 4 lbs.	Ingredients\n12	slices	raw ginger thinly sliced	Ingredients\n4	whole	star anise	Ingredients\n2	cup	dark soya sauce	Ingredients\n3	tsp	Salt	Ingredients\n6	cloves	garlic smashed	Ingredients\n1		large onion cut into quarters	Ingredients
+Instructions=Take your chicken out of the refrigerator an hour before you plan to cook. You'll want it at room temperature when it hits the pot. Remove the giblets, and thoroughly rinse the chicken inside and out.\n\nAdd all ingredients into the pot.\n\nAdd enough water to cover the chicken. (eye ball it)\n\nBring water to rolling boil and slowly insert the chicken into the pot. Now make sure the water covers the chicken completely.Add more water at this point to cover the chicken completely.\n\nBring the water back up to a boil cover and cook for about two minutes. (yes I said for only two minutes)\n\nShut the stove off, do not lift the lid to peek. (yes you lift the lid don't complain it did not work)\n\nCome back about  5 hours later, lift the chicken out drain make sure all the water has left the chicken. Discard the rest of the ingredients in the pot it is no longer needed.\n\nPut the chicken in the frig for about 3 hours to completely cool.\n\nNow you can chop it into what ever pierces you wish.\n\n
+Notes=
+Serves=4
+Yield=4 servings
+Spiciness=15
+Diets=0
+DefaultImage=0
+Images=soy-sauce-chicken-7.jpg;
+Created=2017-11-11 21:6:47
+Modified=2017-11-11 21:6:47
+
+[R_Struwen_by_tobias]
+Name=Struwen
+Author=tobias
+Description=Struven are yeast pancakes which are traditionally eaten on good Friday in Germany, predominantly in Münsterland, but also in lower Rhine region.\n\nhttps://de.wikipedia.org/wiki/Struwen
+Cuisine=German
+Season=Good Friday
+Category=entree
+PrepTime=15 to 30 minutes
+CookTime=30 to 45 minutes
+Ingredients=500	g	Flour	\n2	tbsp	Sugar	\n1	bag	Yeast	\n½	tsp	Salt	\n1		Egg	\n⅜	l	Milk	\n		Oil	\n		Raisins	
+Instructions=[image:1]Heat up 375ml milk in the microwave or on the stove until it is lukewarm. Don't boil!\n\n[image:2]Mix flour, yeast, sugar, eggs, warm milk and salt with a mixer.\n\n[image:5]Fold in the raisins with a spoon.\n\n[timer:00:30:00]Cover and let rise.\n\n[image:8]Use two table spoons to lift small balls of the soft dough into boiling oil and brown the small pancakes from both sides on medium heat.\n\n[image:0]Serve with cinnamon, sugar and applesauce.
+Notes=Struven can easily burn, therefore use only medium heat when browning.\nUse several pans to speed things up.
+Serves=4
+Spiciness=15
+Diets=10
+DefaultImage=0
+Images=DSC_8619.jpg;DSC_85761.jpg;DSC_85871.jpg;DSC_85882.jpg;DSC_85912.jpg;DSC_85931.jpg;DSC_8596.jpg;DSC_8610.jpg;DSC_8613.jpg;DSC_86140.jpg;
+Created=2017-10-30 12:00:00
+Modified=2017-10-30 12:00:00
+
+[R_Sous_Vide_by_primulas]
+Name=Sous Vide
+Author=primulas
+Description=An extremely simple French recipe.\nIt goes well with any soft side dish like plain rice, cooked potatoes or tomato&lettuce salad.
+Cuisine=European
+Season=thanksgiving
+Category=entree
+PrepTime=Less than 15 minutes
+CookTime=30 to 45 minutes
+Ingredients=1	kg	Beef	Ingredients\n8		Rosemary	Ingredients\n4	tbsp	Olive oil, extra-virgin	Ingredients\n1	glass	Red wine	Ingredients\n1		Salt and pepper	Ingredients\n1	tbsp	Pork fat	Ingredients
+Instructions=\n\n1. Pat the steaks with black pepper, olive oil and rosemary, and let it rest absorbing flavours.\n\n2. Heat a skillet with a mix of pork fat and oil, after a moment add the steaks. Sear until a crust forms, then flip and re-sear. For thick steaks, sear the sides as well. Don’t overcrowd the skillet, and work in batches if needed. Set the steaks aside.\n\n3. Reduce the skillet heat to low-medium, then add the wine and the spices used to marinate the meat. Reduce by half, stirring occasionally. While the sauce simmers, slice the steaks and scatter with some extra salt and black pepper. \n\n4. Once the sauce is reduced, remove from heat and stir. Plate the steaks, then pour the reduced sauce over them and serve with plain rice or potatoes.\n\n
+Notes=Pork fat is optional.
+Serves=4
+Yield=4 servings
+Spiciness=40
+Diets=0
+DefaultImage=0
+Images=Sous_vide2.jpg;
+Created=2017-10-30 12:00:00
+Modified=2017-10-30 12:00:00
+
+[R_Chicken_gravy_by_primulas]
+Name=Chicken gravy
+Author=primulas
+Description=This is a recipe I found in a book about Swabian cuisine. I just translated it.
+Cuisine=European
+Season=fall
+Category=other
+PrepTime=Less than 15 minutes
+CookTime=Less than 15 minutes
+Ingredients=1		Salt and pepper	Ingredients\n1		Paprika	Ingredients\n1		Honey	Ingredients\n1		Rosemary	Ingredients\n1		Lemon juice	Ingredients\n1		Corn starch	Ingredients
+Instructions=Mix everything. Cook it. Use it or store it.\n
+Notes=It works well to use it in the spot or to store it for later.
+Serves=10
+Yield=10 servings
+Spiciness=40
+Diets=12
+DefaultImage=0
+Images=Making_the_gravy_sauce_(5300009066).jpg;
+Created=2017-10-30 12:00:00
+Modified=2017-10-30 12:00:00
+
+[R_Midsummer_Night_s_Dream_by_primulas]
+Name=Midsummer Night's Dream
+Author=primulas
+Description=I made up this dessert in a very hot evening of summer.
+Cuisine=European
+Season=summer
+Category=dessert
+PrepTime=Less than 15 minutes
+CookTime=
+Ingredients=1		Vanilla icecream	Ingredients\n1		Crunchy Muesli	Ingredients\n1		Chocolate	Ingredients\n1		Nuts	Ingredients\n		Strawberry	Ingredients
+Instructions=Fill a cup with ice cream adding Muesli, Chocolate and Nuts on top.\n\nOptionally, if you like it very sweet, you can add a bit of honey or caramel.\n\nIf you use chocolate ice cream instead of vanilla, skip the chocolate on top.
+Notes=I made it with Vanilla, but you can try with other plain flavours like sabayon, chocolate or strawberry. \nNuts can be anything, walnuts, pecans, hazelnuts...  Cashews aren't that nice in sweet dishes but if you like them, go ahead.
+Serves=2
+Yield=2 servings
+Spiciness=15
+Diets=0
+DefaultImage=0
+Images=delicia.jpg;
+Created=2017-10-9 17:00:00
+Modified=2017-10-9 17:00:00
+
+[R_Boeuf_Bourguignon_by_primulas]
+Name=Boeuf Bourguignon
+Author=primulas
+Description=A slightly modified version of a classic. Perfect to serve with potatoes in midwinter. 
+Cuisine=European
+Season=christmas
+Category=entree
+PrepTime=30 to 45 minutes
+CookTime=45 minutes to an hour
+Ingredients=150	g	Bacon	Ingredients\n2	kg	Beef	Ingredients\n500	g	Onion	Ingredients\n120	g	Tomato paste	Ingredients\n250	ml	Red wine	Ingredients\n400	ml	Broth	Ingredients\n6		Carrots	Ingredients\n300	g	Champignons	Ingredients\n2		Bay leaf	Ingredients\n1		Parsley	Ingredients\n1		Thyme	Ingredients\n1		Rosemary	Ingredients\n1		Salt and pepper	Ingredients\n1		Garlic	Ingredients
+Instructions=\n\n1. Warm a stockpot or dutch oven over medium heat; add the bacon and saute until crispy and its fat has rendered, about 10 minutes, stirring occasionally. Remove the bacon with a slotted spoon and set aside; increase heat to medium-high. Toss the beef in 2 tbsp of the flour plus the salt and pepper until well-coated; retain any excess flour. Add the beef pieces to the stockpot and brown until darkened and crispy, about 4 minutes per side, in batches if needed to prevent overcrowding.\n\n2. Set the beef aside once browned, then reduce heat to medium; add the onion to the stockpot and saute until softened, about 6 minutes. Add some butter, 1 tbsp at a time, if you run out of fat in the pot. Add the garlic and tomato paste, then sauté until aromatic, about 30 seconds. Add the remaining 2 tbsp of flour plus any retained flour from dusting the beef; stir and toast until it emits a nutty smell, about 2 minutes.\n\n3. Add the wine, thyme, rosemary, and bay leaves; stir to combine. Bring to a simmer and allow to thicken, then add the beef and any accumulated juices plus the beef bones. Add enough beef broth to nearly cover the beef. Cover, reduce heat to low, and simmer until nearly tender, about 2 hours.\n\n4. Uncover and increase heat to medium-low. Fish out the bones with tongs and discard or rinse and use to make a batch of beef broth. Add the carrots and simmer, uncovered, for 10 minutes, then add the pearl onions and simmer for 5 minutes. Finally, add the mushrooms and simmer until the meat and vegetables are softened, about 10 more minutes.\n\n5. At this point the sauce should be very thick; if so, stir in the bacon, add salt and pepper to taste, then serve garnished with chopped parsley. If the sauce is thin, remove the meat and vegetables with a slotted spoon and set aside, then reduce the sauce over medium-high heat until very thick. When ready to serve, return the meat, vegetables, and bacon to the pot to warm, and salt and pepper to taste, then serve garnished with chopped parsley.\n\n** Serve with mashed or baked potatoes.\n\n
+Notes=**Beef can be short ribs or boneless, as you like it.\n**If not Broth, plain Water is fine.\n**Onions can be the tiny ones, "pearl onions", or just normal ones. As long as they aren't too strong, is okay.\n**If no Champignons are available, choose a soft flavoured mushroom of some kind. In any case, they must be fresh not canned.\n
+Serves=1
+Yield=1 servings
+Spiciness=15
+Diets=2
+DefaultImage=0
+Images=beef-bourguignon2.jpg;
+Created=2017-10-9 12:00:00
+Modified=2017-10-9 12:00:00
+
+[R_Grilled_salad_by_primulas]
+Name=Grilled salad
+Author=primulas
+Description=A strengthen salad.
+Cuisine=mediterranean
+Season=summer
+Category=salad
+PrepTime=Less than 15 minutes
+CookTime=Less than 15 minutes
+Ingredients=\t800 g	Tomato	Romaine Salad\n	500 g	Chicken breasts, large	Romaine Salad\n	1	Lettuce	Romaine Salad\n	1	Olive oil, extra-virgin	Romaine Salad\n	1	Salt and pepper	Romaine Salad\n	200 g	Cheese	Romaine Salad\n	300 g	Mayonnaise	Caesar dressing\n	50 g	Anchovies	Caesar dressing\n	50 g	Parmesan cheese, grated	Caesar dressing\n	1	Garlic cloves	Caesar dressing\n	1	Mustard	Caesar dressing
+Instructions=\n\n1. Preheat your oven to 200°C. Toss the tomatoes with some olive oil, salt, and pepper on a baking surface. Roast them a bit, very carefully.\n\n2. To make the short version Caesar dressing, chop the garlic and anchovy into a paste, then add to a mixing bowl. Whisk in the remaining ingredients, add salt and pepper to taste, and add a bit more lemon juice if the dressing gets too thick.\n\n3. Prepare the chicken for grilling. Place the chicken flat on a cutting board, then slice each breast in half lengthwise to make 2 thin butterflied cutlets, 8 total. Grill them with some olive oil, salt and pepper; then set aside.\n\n4. Slice the lettuce in big halves, then brush with more olive oil and sprinkle with a bit of salt. Grill cut-side-down until for 1 minute or so.\n\n5. Slice the chicken into bite-sized pieces, then put everything together: place the lettuce cut-side-up, then scatter with chicken and roasted tomatoes; drizzle with the dressing and scatter with some shredded parmesan cheese.\n\n\n** The tomatoes, dressing, and chicken can all be made up to a day in advance.
+Notes=
+Serves=4
+Yield=4 servings
+Spiciness=40
+Diets=3
+DefaultImage=0
+Images=img_1316.jpg;
+Created=2017-10-9 12:00:00
+Modified=2017-10-9 12:00:00
+
+[R_Any_meat_marinade_by_primulas]
+Name=Any meat marinade
+Author=primulas
+Description=This is a very simple marinade that suits any kind of meat.\nThe best result is making a lot and storing it in pots in a cool place.
+Cuisine=European
+Season=
+Category=other
+PrepTime=15 to 30 minutes
+CookTime=
+Ingredients=\t\tSea salt	Ingredients\n		Pepper	Ingredients\n		Paprika	Ingredients\n		Olive oil, extra-virgin	Ingredients
+Instructions=\nMix everything and store it in jars or pots to further use.
+Notes=
+Serves=10
+Yield=10 servings
+Spiciness=40
+Diets=31
+DefaultImage=0
+Images=PaprikaMarinadeBratenOderBBQ.jpg;
+Created=2017-9-30 12:00:00
+Modified=2017-9-30 12:00:00
+
+[R_Farikal_by_primulas]
+Name=Farikal
+Author=primulas
+Description=Fårikål is a Norwegian lamb and cabbage stew, very simple but really good for cold winters. This is my personal version (with Basil).
+Cuisine=nordic
+Season=winter
+Category=entree
+PrepTime=15 to 30 minutes
+CookTime=30 to 45 minutes
+Ingredients=1	kg	Lamb	Ingredients\n1		Cabbage	Ingredients\n1	kg	Potato	Ingredients\n400	ml	Broth	Ingredients\n1		Salt and pepper	Ingredients\n1		Basil	Ingredients
+Instructions=\n1. Layer the bottom of a stockpot or dutch oven with lamb pieces, then sprinkle with a little of the salt. Add a layer of cabbage, then another layer of lamb and salt, and so on. Add the peppercorns and broth, then enough water to just cover everything. Bring to a simmer over high heat, then reduce heat to low and gently simmer until the lamb pulls away easily from the bone, about 2 hours. Add the potatoes during the last 30 minutes of simmering.\n\n2. Preheat your oven on the broil setting. Carefully remove the lamb pieces from the oven and place on a baking sheet. Broil the lamb until darkened and crispy, about 2 minutes per side. Return the lamb to the pot, season the stew with salt to taste, and serve.
+Notes=
+Serves=6
+Yield=6 servings
+Spiciness=15
+Diets=18
+DefaultImage=0
+Images=lamb meat.jpg;
+Created=2017-9-30 12:00:00
+Modified=2017-9-30 12:00:00
+
+[R_Colita_con_Chimichurri_by_primulas]
+Name=Colita con Chimichurri
+Author=primulas
+Description=This recipe is original from Argentine and contains one of the many version of a popular sauce: Chimichurri.\nIt's not restricted to Christmas and actually can be eaten warm or cold, and taste awesome in any way.
+Cuisine=american
+Season=christmas
+Category=entree
+PrepTime=30 to 45 minutes
+CookTime=30 to 45 minutes
+Ingredients=1	kg	Meat	Meat\n1		Garlic cloves	Chimichurri\n1		Onion	Chimichurri\n1		Parsley	Chimichurri\n1		Oregano	Chimichurri\n1		Vinegar	Chimichurri\n1		Oil	Chimichurri\n1		Salt and pepper	Chimichurri\n1		Chili flakes	Chimichurri
+Instructions=\n\n\n1. Combine the marinade ingredients in a small bowl; stir to combine. Rub the marinade all over the tri-tip and set aside. Warm up the grill for indirect moderate heat: if using a charcoal grill, bank the coals to one side; if using a gas grill, ignite the burners on one side.\n\n2. Place the tri-tip on the cool side of the grill and cook until it reaches an internal temperature of 110F, about 25 minutes. As the meat cooks, combine the Chimichurri ingredients and set aside.\n\n3. Move the tri-tip to the hot side of the grill and cook on each side until lightly charred, about 2 minutes per side. Remove from the grill and rest for 10 minutes before slicing against the grain; serve with roasted or baked potatoes and the Chimichurri and lemon wedges for flavouring.
+Notes=\n** Meat used:  Loin, Sirloin, Trip-Tip or anything like that.\n** Onions are always less than garlic.\n** Chili peppers can be fresh and cut very tiny, just the seeds or dry  (seeds or flakes).\n
+Serves=4
+Yield=4 servings
+Spiciness=40
+Diets=19
+DefaultImage=0
+Images=2mgaa04.jpg;
+Created=2017-9-30 12:00:00
+Modified=2017-9-30 12:00:00
+
+[R_Stamina_v1_by_bruce]
+Name=Stamina v1
+Author=bruce
+Description=This is considered a health drink.\n Good for stamina
+Cuisine=american
+Season=All year
+Category=breakfast
+PrepTime=Less than 15 minutes
+CookTime=Less than 15 minutes
+Ingredients=1		Beetroot	\n1 ½	leaves	kale	\n1	clove	Garlic	\n1	cup	Coconut water	
+Instructions=This is the tinted for blending.\n\nDepending on the blender but for me this is what I do.\n\n1 Cut up your beetroot in to four piedes. \n\n2 Cut your Kale into four pieces. \n\n3 Make sure the dry skin is off the garlic clove Before putting in blender.\n\n4 Add the coconut water. \n\n5 blend away to your perfection\n\nI hope you enjoy!!!
+Notes=
+Serves=1
+Spiciness=15
+Diets=31
+DefaultImage=0
+Images=20170827_070907.jpg;
+Created=2017-8-29 08:00:00
+Modified=2017-8-29 08:00:00
+
+[R_Original_V-8_Recipe_by_bruce]
+Name=Original V-8 Recipe
+Author=bruce
+Description=Yield roughly 32 oz. Trust me best served cold. If you add Tabasco, black pepper, and Worcestershire sauce you got yourself a spicy V-8.\n
+Cuisine=american
+Season=
+Category=drinks
+PrepTime=Less than 15 minutes
+CookTime=Less than 15 minutes
+Ingredients=½		Bell Pepper (green)	\n2		Carrots	\n3	Stalk	Celey	\n½		Cucumber (large)	\n1	cup	Spinach	\n250	g	Parsley (2 handful) 	\n3		Medium whole  tomatoes	
+Instructions=This recipe is intended for juicing.
+Notes=
+Serves=1
+Spiciness=15
+Diets=31
+DefaultImage=0
+Images=V8-Ingredients.jpg;
+Created=2017-8-27 08:30:00
+Modified=2017-8-27 08:30:00
+
+[R_Peach_Pine_Delight_by_bruce]
+Name=Peach Pine Delight
+Author=bruce
+Description=Peaches, pineapple, and pomegranate juice blended to perfection. I hope you enjoy!
+Cuisine=
+Season=
+Category=drinks
+PrepTime=Less than 15 minutes
+CookTime=
+Ingredients=½	cup	Peache Frozen	\n½	cup	 Pineapple Frozen	\n1	cup	pomegranate juice	
+Instructions=Place items in blender and blend it.
+Notes=
+Serves=1
+Spiciness=15
+Diets=31
+DefaultImage=0
+Images=20170826_055326.jpg;
+Created=2017-8-27 08:30:00
+Modified=2017-8-27 08:30:00
+
+[R_Endurance_1_0_by_bruce]
+Name=Endurance 1.0
+Author=bruce
+Description=This is intended for blending. However if you want to juice this I recommend. \n1 package cherries\n1 bushel Kale\n4 large bananas\n½ medium sweet potatoes
+Cuisine=american
+Season=
+Category=drinks
+PrepTime=Less than 15 minutes
+CookTime=Less than 15 minutes
+Ingredients=¼	cup	Cherries, pitted	\n1	Large salad sized clump of kale	kale	\n1		Banana	\n¼		sweet potatoes	
+Instructions=This is intended for blending
+Notes=
+Serves=1
+Spiciness=15
+Diets=31
+DefaultImage=0
+Images=20170610_120528.jpg;
+Created=2017-8-27 08:30:00
+Modified=2017-8-27 08:30:00
+
+[R_Okonomiyaki__Osaka_style__by_spooky]
+Name=Okonomiyaki (Osaka style)
+Author=spooky
+Description=Okonomiyaki: 'Okonomi' meaning "your choice", and 'yaki' meaning "fried".  This dish, as I have experienced it, is a cabbage pancake.\n\nThis recipe is vegetarian, but it is also apparently very good if you fry okonomiyaki on top of a weave of bacon. When you have finished cooking, you can also top your okonomiyaki with katsuoboshi (bonito flakes) for a fun fishy topping.
+Cuisine=Japanese
+Season=
+Category=entree
+PrepTime=Less than 15 minutes
+CookTime=Less than 15 minutes
+Ingredients=45	ml	Ketchup	Simple okonomi sauce\n15	ml	Worcestershire sauce	Simple okonomi sauce\n5	ml	Soy sauce (tamari)	Simple okonomi sauce\n5	ml	Honey	Simple okonomi sauce\n2		Eggs	Ingredients\n100	g	Flour (all-purpose)	Ingredients\n160	ml	Water	Ingredients\n¼		Cabbage	Ingredients\n2		Green onions	Ingredients\n½		Onion	Ingredients\n10	ml	Chili flakes	Ingredients\n10	ml	Cracked pepper	Ingredients\n5	ml	Sea salt	Ingredients\n15	ml	Coconut oil	Ingredients\n60	ml	Japanese mayonaisse	Ingredients\n60	ml	Okonomiyaki sauce	Ingredients
+Instructions=In a large bowl, combine flour, eggs, and water. Whisk until batter is smooth. Mix in chili flakes, cracked pepper, and sea salt, then set aside.\n\nFinely chop 1/4 of a head of cabbage (approx. 400 ml) and add it to the batter. Grating also works too if you prefer a more uniform texture.\n\nFinely chop green onions. Set aside the dark green parts of the onion, which will be used as a garnish later. Add the chopped green onions to the batter.\n\nFinely chop half an onion and add it to the batter. Feel free to add anything else you like at this point (shredded carrots are a nice addition).\n\nFold the batter over itself using a spatula, ensuring that the chopped cabbage is evenly coated.\n\nIn a small non-stick frying pan, toast black sesame seeds on low heat for 2-5 minutes.\n\nAdd coconut oil to the pan, turn the heat up to medium. Add the batter and cabbage mixture to the pan, using a spatula to clean up the sides of the pancake.\n\n[image:3]Cook for approximately 5 to 10 minutes on each side, then transfer to a cutting board.\n\nTo make okonomiyaki sauce: combine ketchup, Worcestershire sauce, tamari soy sauce, and honey in a small bowl. Add some chili flakes or other spices to your preference.\n\n[image:2] Smother the okonomiyaki pancake with the sauce. Pipe Japanese mayonnaise on the pancake in a back-and-forth (chevron) pattern. Use a chopstick or butter knife to draw parallel lines through the sauces for a nice visual effect. Note, in the attached image, the sauces are reversed to better demonstrate the pattern.\n\n[image:0] Top the okonomiyaki with the reserved green onions.\n
+Notes=For the gluten-intolerant:\n- Soy sauce is typically fermented with wheat; ensure you are using proper "tamari" soy sauce, which is fermented with soy.\n-  Rice flour makes for a fine substitute to wheat flour\n\nOther notes:\n- Simple Okonomiyaki sauce is very similar to barbecue sauce, as such barbecue sauce is a fine substitute for the sauce recipe included here.\n- Mix in other goodies such as shredded carrots, etc as you please!\n- In the third image, the sauces are reversed (mayonaisse then okonomi sauce) to better show the pattern. Either sauce works as the base, but the order in the instructions in my preference
+Serves=4
+Yield=4 servings
+Spiciness=40
+Diets=27
+DefaultImage=0
+Images=okonomiyaki.jpg;okonomiyaki2.jpg;okonomiyaki3.jpg;okonomiyaki4.jpg;
+Created=2017-8-25 17:00:00
+Modified=2017-8-25 17:00:00
+
+[R_Rouladen_by_primulas]
+Name=Rouladen
+Author=primulas
+Description=This is the German version of a popular Greek dish.\nIn Spanish is called  "Niños envueltos"  and in Greek is "Dolmades".\nIn the original recipe (Greek/Turkish) the meat rolls are wrapped with vine or cabbage leafs. Some versions use the leafs only without the meat.
+Cuisine=European
+Season=fall
+Category=entree
+PrepTime=30 to 45 minutes
+CookTime=45 minutes to an hour
+Ingredients=2		Carrot	\n3		Onion	\n½		Bell pepper	\n¼		Horseraddish	\n1	kg	Potato	\n1200	g	Beef	\n100	g	Pancetta	\n½		Garlic	\n1	tbsp	Pork fat	\n1	pkg	Pickles (Cucumbers)	\n2	tbsp	Saucebinder	\n2	glass	Wine	\n2	tbsp	Tomato paste	\n1		Parsley	\n1		Salt and pepper	\n1		Mustard	\n1		Nutmeg	
+Instructions=Cut the meat in thin slices and paint each one with mustard. \n\nChop two onions and parsley very little, and the other onion in big chunks. \n\nPeel and chop the potatoes. Cook them until they're exceedingly tender.  Take them out of the pot and smash them. \n\nFry everything (vegs+wine+tomato+saucenbinden) except beef, pancetta and cucumbers. This will be the filling together with the cucumbers. \n\nWhen the filling is warm, place a pancetta slice in the centre, some filling on it, cucumbers and then roll the meat. \n\nTie it with cord  (heat resistant, please!). \n\nPlace in the oven and cook them until they're done. \n\nServe the rouladen with baked potatoes or plain rice.
+Notes=Where it says  "package of cucumbers"  should be read as a bottle or pot.
+Serves=8
+Yield=8 servings
+Spiciness=15
+Diets=0
+DefaultImage=0
+Images=rouladen-mit-selbstgemachtem-rotkohl.jpg;
+Created=2017-8-13 9:00:00
+Modified=2017-8-13 9:00:00
+
+[R_Burjji_by_sri]
+Name=Burjji
+Author=sri
+Description=Burjji is one of those treats that you can have at any time.  It is usually served at roadside restaurants or stalls along highways but can also be seen in the cities as well.\n\nThis is basically indian style scrambled eggs with veggies and chillis.  There are a lot of variations.
+Cuisine=indian
+Season=
+Category=breakfast
+PrepTime=Less than 15 minutes
+CookTime=Less than 15 minutes
+Ingredients=2		Eggs	Ingredients\n½	cup	finely chopped onions	Ingredients\n1	tbsp	Finely chopped thai chillies or green chillis	Ingredients\n1	tsp	cumin seeds	Ingredients\n2	tbsp	Butter	Ingredients\n½		finely chopped tomato	Ingredients\n2	tsp	Salt	Ingredients\n1	tsp	ground pepper	Ingredients\n1	tbsp	ground coriander (optional)	Ingredients\n½	tsp	Turmeric, ground (optional)	Ingredients\n½	tsp	garam masala	Ingredients\n⅓	cup	Milk	Ingredients\n2	tbsp	finely chopped cilantro	Ingredients
+Instructions=In a saucepan, melt butter till full melted\n\nAdd the cumin seeds, and toast until brown\n\nAdd onions and green chillis\n\nCook until onions are soft and slightly browned\n\nAdd finely chopped tomato and cook for 10 minutes under medium heat until tomato is well cooked and incorporated with the onions\n\nAdd salt and pepper to taste\n\nAdd the optional ingredients and cook for another 5 minutes\n\nIn a mixing bowl, whisk the eggs until fully combined and then add the milk, add the salt and pepper\n\nAdd the chopped cilantro and mix well\n\nPour the egg mixture onto the sauce pan and stir gently incorporating the vegetables with the eggs\n\nCook till just set with barely any liquid\n\nServe!\n\n
+Notes=
+Serves=1
+Yield=1 serving
+Spiciness=15
+Diets=0
+DefaultImage=0
+Images=burjji.jpg;
+Created=2017-7-21 11:00:00
+Modified=2017-7-21 11:00:00
+
+[R_Shaksuka_by_primulas]
+Name=Shaksuka
+Author=primulas
+Description=It's a dish from Israel; it's typically made with tomatoes but other vegetables can be used instead.\nThis is Henry's version of it.
+Cuisine=Middle East
+Season=summer
+Category=entree
+PrepTime=Less than 15 minutes
+CookTime=15 to 30 minutes
+Ingredients=1		Onion	Ingredients\n1		Red bell pepper	Ingredients\n1		Red Pepper	Ingredients\n4		Tomato	Ingredients\n4		Egg	Ingredients\n1	tbsp	Tomato paste	Ingredients\n1		Garlic	Ingredients\n1		Cumin	Ingredients\n1		Paprika	Ingredients\n1		Chili flakes	Ingredients\n1		Salt and pepper	Ingredients
+Instructions=\nChop everything except tomatoes in tiny pieces. \n\nTake the seeds off the tomatoes and chop them as well. \n\nHeat oil on a pan. \n\nPut tomatoes and peppers on the pan and let them boil. \n\nAdd the rest of ingredients except eggs. Cook it for 2 or 4 minutes. \n\nMake little wells in the vegs mix and break the eggs inside. The idea is that eggs won't spread and disappear. \n\nCook until eggs are done. \n\nServe in the same pan it was cooked accompanied by crackers or pita bread.
+Notes=
+Serves=2
+Yield=2 servings
+Spiciness=40
+Diets=8
+DefaultImage=0
+Images=19965118_1468732866528506_605884811_n.jpg;
+Created=2017-7-21 11:00:00
+Modified=2017-7-21 11:00:00
+
+[R_Beef_Pho_by_snwh]
+Name=Beef Pho
+Author=snwh
+Description=Pho (or phở) is a brothy Vietnamese noodle dish usually made from beef or chicken, but it's really really worth the effort to make. While some of the ingredients may seem daunting or unusual, they're really not and they're easy to find in your local Asian market.
+Cuisine=Vietnamese
+Season=
+Category=entree
+PrepTime=15 to 30 minutes
+CookTime=More than an hour
+Ingredients=6	l	Beef stock	Broth Ingredients\n2		cinnamon sticks	Broth Ingredients\n1	tbsp	coriandre seeds	Broth Ingredients\n1		black cardamom pod	Broth Ingredients\n8		cloves	Broth Ingredients\n8		black peppercorns	Broth Ingredients\n8		star anise	Broth Ingredients\n½	cup	Cilantro	Broth Ingredients\n4	tbsp	rock sugar	Broth Ingredients\n3	tbsp	Thai fish sauce	Broth Ingredients\n1		white onion	Broth Ingredients\n1		ginger	Broth Ingredients\n1	kg	beef (sirloin)	Serving Ingredients\n4	cups	rice vermicelli noodles	Serving Ingredients\n½		red onion	Serving Ingredients\n500	g	cooked beef	Serving Ingredients\n½	cup	Thai basil leaves (chopped)	Garnishes\n½	cup	scallions (thinly sliced)	Garnishes\n½	cup	cilantro leaves	Garnishes\n1	cup	bean sprouts	Garnishes\n3		Thai chillies	Garnishes\n		sesame oil	Garnishes\n		hoisin sauce	Garnishes\n		chili sauce (e.g. sriracha)	Garnishes\n2		limes (cut into wedges)	Garnishes
+Instructions=This first step isn't necessary, but it adds dimension to your broth: place both the ginger and the onion (whole and unpeeled) on a very hot grill/bbq. Cook and turn often until the outsides of both are completely black and blistering. Place in cold water to quickly cool before you remove the peel and most of the blackened bits. \n\nPour your beef stock into a large stock pot and add all the whole herbs & spices plus the fish sauce, rock sugar and the whole onion and ginger. Bring to a rolling boil, cover and reduce the heat and let simmer for an hour or so.\n\nCook the rice vermicelli noodles as directed on the package and set aside.  Peel, halve and thinly slice the red onion. \n\nNext, very thinly slice the beef (partially freezing it beforehand will make it much easier to slice) –it's important to slice the raw meat very thin so it will cook in hot broth upon serving. Finally, chop up the pre-cooked beef.\n\nStrain the broth through a fine mesh colander, return to heat and bring to a boil.  \n\nPlace some of the cooked rice noodles and sliced beef and onion into bowls for serving. Pour the hot broth over it this –it should cook the meat very quickly.\n\nArrange the garnishes and sauces out for your diners to pick and choose for themselves. Varying which garnishes you choose will change the overall flavour of the soup, feel free to change it up on your second serving.
+Notes=
+Serves=4
+Spiciness=40
+Diets=0
+DefaultImage=0
+Images=beef-pho.jpg;
+Created=2017-6-27 13:00:00
+Modified=2017-6-27 13:00:00
+
+[R_Pad_Priew_Wan_Goong_by_primulas]
+Name=Pad Priew Wan Goong
+Author=primulas
+Description=This is a summer, tone-down version of the original Thai dish.\nIf you change shrimp for cheese or soja protein it will be vegetarian or vegan.
+Cuisine=Asian
+Season=summer
+Category=salad
+PrepTime=Less than 15 minutes
+CookTime=Less than 15 minutes
+Ingredients=200	g	Shrimps	Salad\n1		Onion	Salad\n½	kg	Tomatoes, medium	Salad\n1		Lettuce	Salad\n½		Green Bell Pepper	Salad\n1		Cucumber	Salad\n1	tbsp	Fish sauce	Seasoning\n1	glass	Water	Seasoning\n½		Lime	Seasoning\n1	tbsp	Tomato paste	Seasoning\n1	tbsp	Vinegar	Seasoning\n		Salt and pepper	Seasoning\n		Oil	Seasoning\n		Cilantro	Seasoning\n		Garlic	Seasoning
+Instructions=\n\n1. Combine the seasoning ingredients, stir together, then set aside. \n\n2. Pat the shrimp dry with paper towels.\n\n3. Heat a wok with a bit of oil and garlic. Stir-fry with the shrimp. \n\n4. Prepare the salad. Add the shrimp with its garlic. Mix well. \n\n5. Serve garnished with the seasoning and, if you like, some plain rice (cold or slightly warm).\n\n
+Notes=\n** You can ignore the vinegar or use lemon juice instead.\n\n** Fish sauce can be swapped with Worcestershire or similar strong flavoured sauce.\n\n** If you want it hotter, you can add Tabasco.\n\n
+Serves=4
+Spiciness=40
+Diets=2
+DefaultImage=0
+Images=img_2526.jpg;
+Created=2017-6-27 11:44:00
+Modified=2017-6-27 11:44:00
+
+[R_Homemade_Mayonnaise_by_primulas]
+Name=Homemade Mayonnaise
+Author=primulas
+Description=Classic recipe. \nYou can prepare it and store it in the fridge for later use.
+Cuisine=European
+Season=summer
+Category=other
+PrepTime=15 to 30 minutes
+CookTime=
+Ingredients=3		Egg yolks	Ingredients\n50	ml	Olive oil, extra-virgin	Ingredients\n1		Lemon	Ingredients\n		Vinegar	Ingredients\n		Mustard	Ingredients\n		Salt and pepper	Ingredients
+Instructions=\n\n1. Combine the egg yolks, salt, and pepper in a bowl. Carefully add the mustard, lemon juice and vinegar.  \n\n2. Then, mixing constantly, add the oil to the previous mix and keep whipping vigorously until the mixture emulsify and becomes rather creamy (like in the picture).\n\n3. For best results, refrigerate for 1 hour before using.\n\n\n\n
+Notes=\n** Vinegar is optional. You can do it with lemon juice only.\n\n** With Honey Mustard tastes even better and gives it a personal touch.\n\n** If you want, you can tone down a bit the cholesterol load by adding some avocado (palta) purée. This is easy to do. Just empty a ripe avocado with a spoon and smash the stuff with a fork.\n\n
+Serves=10
+Spiciness=15
+Diets=25
+DefaultImage=0
+Images=Homemade-Mayonnaise-Tall.jpg;
+Created=2017-6-27 11:44:00
+Modified=2017-6-27 11:44:00
+
+[R_Arroz_amarillo_by_primulas]
+Name=Arroz amarillo
+Author=primulas
+Description=Base for many Spanish dishes like Paella and Arroz con mariscos.
+Cuisine=mediterranean
+Season=summer
+Category=side
+PrepTime=Less than 15 minutes
+CookTime=15 to 30 minutes
+Ingredients=250	g	Rice	\n2	pinches	Saffron	\n500	ml	Broth	\n2		Onion	\n1		Red bell pepper	\n½		Garlic	\n3	tbsp	Tomato paste	\n		Salt and pepper	
+Instructions=\n1. Prepare the saffron with the rice.  Chop bell pepper, onions and garlic, keeping them apart.\n\n2. Warm the oil in a large skillet over medium heat. Add bell pepper and sauté until just softened, then stir in the onions and sauté until softened. Stir in the rice and garlic, and sauté until the rice is well-coated and starting to turn opaque, stirring constantly to prevent sticking, about 2 minutes.  Don't forget the saffron!\n\n3. Stir in broth, tomato paste, salt, and pepper. Bring to a simmer then cover, reduce heat to low, and simmer until the liquid has evaporated (listen for when the rice stops bubbling). Try it and if it tastes and feels about right, remove it from heat and set aside, covered and undisturbed until is done. \n\n\n-------------------------------- \n\n\n** Pour water little by little, if water is not enough, add more.  It's always better too little than too much as getting rid of water will throw spices and flavour as well. \n\n** If you use the wine/broth combo instead of just broth, add the wine first and let it simmer for a couple minutes, stirring often, before adding the broth and proceeding as directed.\n\n---------------------------------\n\n
+Notes=Broth substitutes:\n1 cup of white wine, 1 cup of water.\n1 cup of white wine, 1 cup of broth.\n2 cups of water.\nRemember that parboiled rice needs more time for cooking than normal one.\nFor the Saffron always follow the instructions detailed in the package, whether is powder or strands.
+Serves=6
+Spiciness=40
+Diets=9
+DefaultImage=0
+Images=img_26852.jpg;
+Created=2017-6-27 11:44:00
+Modified=2017-6-27 11:44:00
+
+[R_Hawaiian_Fish_Salad_by_primulas]
+Name=Hawaiian Fish Salad
+Author=primulas
+Description=Personal version of a Hawaiian salad (with raw fish).
+Cuisine=Asian
+Season=summer
+Category=salad
+PrepTime=15 to 30 minutes
+CookTime=Less than 15 minutes
+Ingredients=350	g	Tuna fish	Ingredients\n1		Onion	Ingredients\n2		Ciboulette	Ingredients\n½		Green Bell Pepper	Ingredients\n1		Cucumber	Ingredients\n200	g	Radish	Ingredients\n450	g	Potato	Ingredients\n		Olive oil, extra-virgin	Ingredients\n		Sesame seeds	Ingredients\n		Honey	Ingredients\n		Garlic	Ingredients\n		Mustard	Ingredients\n		Lemon juice	Ingredients\n		Salt and pepper	Ingredients
+Instructions=\n\n1. Chop tuna in chunks and cook it on a skillet with a touch of olive oil, salt & pepper. \n\n2. Cook the potatoes and leave them aside to cool down.\n\n3. Meanwhile, combine the seasoning ingredients, and leave it to rest for a while. \n\n4. Meanwhile potatoes and fish get cooled and the seasoning rests, chop the vegetables. \n\n5. Cut the potatoes in chunks or slices. \n\n6. Mix all together, season and serve.\n\n\n
+Notes=\n** You can use the canned filets but it doesn't taste as good as using fresh fish.\n\n** You can add other vegetables at will, like mushrooms or lettuce.\n\n
+Serves=4
+Spiciness=15
+Diets=0
+DefaultImage=0
+Images=img_9083.jpg;
+Created=2017-6-27 11:44:00
+Modified=2017-6-27 11:44:00
+
+
+[R_Bourbon_Pork_Loin_by_primulas]
+Name=Bourbon Pork Loin
+Author=primulas
+Description=This is a modified version of a recipe found on a website.
+Cuisine=american
+Season=christmas
+Category=entree
+PrepTime=30 to 45 minutes
+CookTime=45 minutes to an hour
+Ingredients=½	cup	Honey	The Glaze\n50	ml	Bourbon whiskey	The Glaze\n1	tbsp	Apple Vinegar	The Glaze\n4		Onion	The Glaze\n		Oil	The Glaze\n		Salt and pepper	The Spice Cover\n		Paprika	The Spice Cover\n		Mustard	The Spice Cover\n		Thyme	The Spice Cover\n2	kg	Pork loin	The Meat\n1.5	kg	Potato	The Meat\n1		Onion	Others\n1		Green Apple	Others\n		Lard or oil	Others
+Instructions=\n\n1. Combine the spice rub ingredients, and rub all over the pork. Let sit at room temperature as you preheat your oven to 110ºC.\n\n2. Place the pork on a skillet, then place in the oven and roast the pork for about 35 minutes. As the pork roasts, combine the glaze ingredients in a small saucepan; bring to a simmer over medium-low heat and simmer until dark and thickened, about 15 minutes. Set the glaze aside.\n\n3. Remove the cooked pork and set on a cutting board to rest; loosely tent with tin foil. Increase the oven temperature to 260ºC. As the oven heats, place the skillet on the stove top, and add the oil, onion, and a few sprinkles of salt; cook until the onions are softened. Be careful because once onions start to caramelize they will quickly burn. Cover the pork liberally with glaze.\n\n4. Roast a little bit more, less than 5 minutes. Let it rest and serve with smashed potatoes and vegs.\n\n\n\n** If you decide to add apples, they go at the end of the 3rd step, before dripping glaze on the meat.\n\n\n
+Notes=Some use maple syrup but I prefer the taste of pure honey mixed with the flavour of pork meat.\nSame for apples; as some people add one or two. I don't like them but you if you fancy, feel free to add them.\nAlso, using lard makes this dish very heavy but using olive oil is pointless as its flavour will be missed. But if you have nothing else, use them. It won't hurt.
+Serves=8
+Spiciness=15
+Diets=0
+DefaultImage=0
+Images=Bourbon Pork.jpg;
+Created=2017-6-20 08:00:00
+Modified=2017-6-20 08:00:00
+
+[R_Henry_s_original_stew_by_primulas]
+Name=Henry's original stew
+Author=primulas
+Description=My friend Heinrich made up this stew a winter Saturday.\nIt can be eaten with rice or alone.
+Cuisine=European
+Season=winter
+Category=entree
+PrepTime=15 to 30 minutes
+CookTime=45 minutes to an hour
+Ingredients=2		Onion	\n3		Carrot	\n100	g	Pancetta	\n1	kg	Potato	\n300	g	Broad beans	\n200	g	Canellini beans	\n400	g	Ground beef	\n½		Garlic	\n2		Bay leaf	\n1		Juniper berries	\n		Salt	\n		Pepper	 
+Instructions=\n\nCook the meat with the species, not completely, just enough to get it toasted and mix the flavours. \n\nAdd the vegetables and beans.  Cook a bit more.  \n\nAdd abundant broth, cover the pot and let it cook on slow fire until is done. \n\nCan be served with rice  (like in the picture)  or alone.
+Notes=Beans can be of any kind, and can be bought canned, in which case would be a can of each kind.\nJuniper berries and Bay leaves are optional.
+Serves=10
+Spiciness=15
+Diets=0
+DefaultImage=0
+Images=beefstewrice.jpg;
+Created=2017-5-31 10:29:21
+Modified=2017-5-31 10:29:21
+
+[R_Pesce_alla_sale_by_primulas]
+Name=Pesce alla sale
+Author=primulas
+Description=It's an easy but tasty way to prepare fish.\nDespite all the salt, the result isn't salty but soft and nice.
+Cuisine=italian
+Season=summer
+Category=entree
+PrepTime=15 to 30 minutes
+CookTime=30 to 45 minutes
+Ingredients=1		Fish	\n1		Salt	\n4		Lemon	\n3		Egg	\n1		Dill	\n1		Pepper	\n1		Olive oil, extra-virgin	
+Instructions=Preheat the oven.\n\nStuff the fish with a mix of lemon and dill.\n\nCombine the salt and eggs. Spread this mix over the fish.\n\nBake it 20' - 25'  or until the crust is brown. \n\nServe it with plain rice.
+Notes=
+Serves=4
+Spiciness=15
+Diets=3
+DefaultImage=0
+Images=saltedfish.jpg;
+Created=2017-4-13 20:7:56
+Modified=2017-4-13 20:7:56
+[R_Crispy_olives_by_mclasen]
+Name=Crispy olives
+Author=mclasen
+Description=These olives in cheese dough are quick and easy to make and are great as a side dish or snack.
+Cuisine=mediterranean
+Season=
+Category=snacks
+PrepTime=15 to 30 minutes
+CookTime=20 minutes
+Ingredients=150	g	Flour	\n125	g	Butter	\n		Salt	\n250	g	Gouda cheese	\n200	g	Olives, pitted	
+Instructions=[image:1]Grate the cheese.\n\n[image:4]Mix the flour and butter into a dough, add the cheese and salt and knead it until it is smooth.\n\n[timer:00:30:00,Rise]Form the dough into a roll and let it rise in the fridge for 30 minutes.\n\n[image:2]Cut the dough roll into 1 cm long slices and press the olives into them. You can roll the dough between your hands until it forms a little ball around the olive.\n\n[timer:00:20:00,Bake]Bake for 20 minutes at [temperature:220C].\n\n[image:0]Enjoy!
+Serves=1
+Spiciness=15
+Diets=10
+DefaultImage=0
+Images=20170408_1743341.jpg;20170408_1642190.jpg;20170408_1710330.jpg;20170408_1635180.jpg;20170408_1647440.jpg;20170408_1712180.jpg;
+Created=2017-4-8 21:34:45
+Modified=2017-4-9 0:48:22
+
+[R_Neapolitan_Pizza_by_peter]
+Name=Neapolitan Pizza
+Author=peter
+Description=Original pizza dough from Naples with tomato sauce on pizza stone.\nToppings are not included in the recipe.\n\nThe sauce can easily produced in bigger amounts and deep-freezed in freezer bags.
+Cuisine=italian
+Season=
+Category=pizza
+PrepTime=30 to 45 minutes
+CookTime=Less than 15 minutes
+Ingredients=450	g	Flour (Tipo 00)	Pizza Dough\n50	g	Durum wheat semolina	Pizza Dough\n250	ml	Water	Pizza Dough\n5	g	Brewer's yeast	Pizza Dough\n13	g	Sea salt	Pizza Dough\n425	ml	Tomatoes (sieved)	Pizza Sauce\n100	ml	Good, dry red wine	Pizza Sauce\n2		Shallots (small)	Pizza Sauce\n2		Garlic cloves	Pizza Sauce\n5	tbsp	Olive oil, extra-virgin	Pizza Sauce\n4	tbsp	Tomato paste	Pizza Sauce\n4	tbsp	Oregano	Pizza Sauce\n1	tbsp	Pepper	Pizza Sauce\n6	tbsp	Sugar	Pizza Sauce
+Instructions=Dough: Dissolve the yeast in lukewarm water. Mix the flour, semolina and salt.\nIf brewer's yeast is not available, one can also use fresh yeast.\n\n[timer:00:10:00]Put the yeast-water mixture to the flour and let it swell for 10 minutes.\n\n[timer:00:15:00]Knead the dough with a kneading machine for at least 15 minutes. This is important so that the dough gets highly elastic.\n\n[timer:08:00:00]Put the yeast dough covered for at least 8 hours (better 24 hours) in the refrigerator.\n\nSauce: Peel the shallots and the garlic and chop them finely.\n\nHeat olive oil in a small pot and fry garlic and shallots shortly. Don't let them get brown.\n\n[timer:00:30:00]Add the sieved tomatoes, tomato paste, red wine, oregano, salt and pepper. Let it boil slightly for 30 minutes so it gets that thick it does not run down the pizza.\n\n[timer:01:30:00]Dough: Put the dough on a floured work surface. Create balls as big as fists (each 180-200g). Cover them with a moist kitchen towel and let them rise for an other 90 minutes at room temperature.\n\nWhen you are ready to start, put the pizza stone in the oven and heat it up to [temperature:300C] (maximum temperature).\n\nTake a dough ball and form with your hands into a round flat thin piece. Don't use a rolling pin, otherwise you destroy the yeast cultures.\n\nStrew semolina on the shovel, so it can later easier slide of the shovel and put the dough piece on it.\n\nPut the pizza sauce with a spoon on it, then pizza cheese (if you don't use e.g. mozzarella) and then the other toppings of your choice.\nThe pizza cheese should be below the toppings. This way the good ingredients are better presented.\nIf you use wet toppings like pineapples or mozzarella, dry them in a sieve before.\nDon't put too much on the pizza.\n\nPut the pizza with the shovel in the oven and bake it till it is brown. Duration is depending on oven temperature.
+Notes=
+Serves=4
+Spiciness=15
+Diets=30
+DefaultImage=0
+Images=PSOF5808.JPG;PSOF5806.JPG;PSOF5804.JPG;
+Created=2017-3-24 20:45:10
+Modified=2017-3-31 19:57:14
+
+[R_Quinoa_Salad_by_hugh]
+Name=Quinoa Salad
+Author=hugh
+Description=Yummy salad that goes with just about anything.
+Cuisine=
+Season=
+Category=side
+PrepTime=Less than 15 minutes
+CookTime=15 to 30 minutes
+Ingredients=1	cup	quinoa	\n2	cup	Water	\n¼	cup	Olive oil, extra-virgin	\n2		limes, juiced	\n2	tsp	ground cumin	\n1	tsp	Salt	\n½	tsp	crushed red peper flakes	\n15	oz	canned black beans, rinsed	\n2	cup	cherry tomatoes, halved	\n8		green onions, chopped	\n⅓	cup	Cilantro	
+Instructions=Cook it like rice so bring quinoa and water to a boil  Reduce heat to medium-low, cover, and simmer until quinoa is tender and water has been absorbed, 10 to 15 minutes. Set aside to cool, this is important otherwise things get sticky \n\nWhisk olive oil, lime juice, cumin, 1 teaspoon salt, and red pepper flakes together in a bowl.\n\nCombine everything but the cilantro, into a big bowl and toss to coat. Next season with salt & pepper and stir in the cilantro. Server right away or chill it for later.
+Notes=If needed you can add some zesty Italian dressing for if it gets a little dry the next day.
+Serves=1
+Spiciness=40
+Diets=8
+DefaultImage=0
+Images=quinoa2.jpg;quinoa1.jpg;
+Created=2017-3-26 0:1:16
+Modified=2017-3-26 0:20:31
+
+[R_Lemon_Cake_by_peter]
+Name=Lemon Cake
+Author=peter
+Description=My favorite Lemon Cake recipe. The cake is light and juicy.
+Cuisine=German
+Season=
+Category=dessert
+PrepTime=15 to 30 minutes
+CookTime=20 minutes
+Ingredients=350	g	Margarine	\n350	g	Flour	\n350	g	Sugar	\n8	g	Vanilla sugar	\n2	tbsp	Baking powder	\n6		Egg	\n3		Lemon (untreated)	\n300	g	Powdered sugar	
+Instructions=Preheat the oven to [temperature:175C] - [temperature:195C].\n\nFirst abrade the shell of the lemons. Squeeze the juice out of two (per serve) lemons.\n\nStir eggs and sugar foamy. Sieve the flour and add it with the vanilla sugar, baking powder, lemon shells and margarine one by one. Stir everything well.\n\n[timer:00:20:00]Put the dough on a baking tray with baking paper and put it in the preheated oven. Bake it for 20min (middle rail).\n\nNow mix the lemon juice little by little with the sieved powered sugar. Be sparing with the juice, the sugar icing must be pretty viscous.\n\nAs long as the cake is warm prick little holes with a fork allover the cake. Then spread the sugar icing on the warm cake. Let the cake cool down.
+Notes=
+Serves=1
+Spiciness=15
+Diets=27
+DefaultImage=2
+Images=lemoncake1.jpg;lemoncake2.jpg;lemoncake3.jpg;
+Created=2017-3-18 21:1:40
+Modified=2017-5-11 14:16:56
+
+[R_Henry_s_Goulash_by_sylvia]
+Name=Henry's Goulash
+Author=sylvia
+Description=Originally from Hungary, this dish is widespread in Central Europe.\nThis is my friend Henry's version of it.
+Cuisine=European
+Season=winter
+Category=entree
+PrepTime=15 to 30 minutes
+CookTime=More than an hour
+Ingredients=3		Onion	\n10		Garlic	\n750	g	Meat	\n1	kg	Potato	\n1		Red bell pepper	\n1		Yellow bell pepper	\n300	g	Tomato paste	\n50	g	Butter	\n600	dl	Red wine	\n1		Oil	\n1		Salt	\n1		Pepper	\n1		Paprika	\n1		Goulash spices	\n1		Sugar	\n1		Beef stock	\n		Water	\n6		Bay leaf	
+Instructions=Chop very minutely onions and garlic. Cut the meat in chunks. Chop red bell peppers in small squares.\n\nCook first the meat, alone without salt or spices.  Keep it warm in a separated bowl.\n\nFry in a mixture of butter and oil half of each pepper, onions and garlic.  When this is soft, add the tomato paste.\n\nWhen everything is almost ready, add meat, wine, spices and bay leaves.  \n\nPut everything in the oven at a low temperature and cook it for some two hours.\n\nMeantime the goulash is in the oven, chop the potatoes in sledges and cook them with salt & pepper.\n\nServe warm together.
+Notes=If you don't have or don't want potatoes, you can use pasta instead.
+Serves=6
+Diets=2
+Images=20160205-beef-goulash-hungarian-recipe-food-lab-18.jpg;
+Created=2017-3-5 23:50:59
+Modified=2017-3-6 11:21:58
+[R_Borscht_by_sylvia]
+Notes=It's easy to convert this soup in vegan or vegetarian by not adding the meat and cream.\nIt will lose a bit of personality though.\n\nIf you're in a hurry, use a canned broil as base and add around 600 g of chopped meat without bones, and follow the rest of instruccions. This way it will be ready in less than an hour.\n\nIngredients may vary. In example lemon juice instead of vinegar and ground or powder pepper instead of the peppercorns.
+Name=Borscht
+Author=sylvia
+Description=This is a traditional soup from East and Central Europe. There are an Ukrainian/Russian and a Polish version, but both a very similar so I put them together in a general recipe.
+Cuisine=European
+Season=winter
+Category=Soups
+PrepTime=15 to 30 minutes
+CookTime=More than an hour
+Ingredients=1	tsp	Peppers	\n200	g	Sour cream	\n1		Oil	\n1		Garlic	\n1		Tomato paste	\n1		Vinegar	\n1		Bay leaf	\n300	g	Carrot	\n100	g	Onion	\n500	g	Beetroot	\n750	g	Potato	\n1		Green Cabbage	\n1500	g	Meat and bones	
+Instructions=[image:0]Over an open flame or under a broiler, roast 1 carrot and half of the onion until charred, about 3 minutes.\n\n[timer:00:08:00,Boil bones]Boil the bones in a large stockpot filled with water for 8 minutes, then drain and rinse thoroughly with cold water.\n\n[timer:02:00:00,Simmer]Clean the stockpot, then return the bones to the pot along with the charred carrot and half onion and the peppercorns. Add enough cold water to cover the bones by at least 1″, about 4 quarts. Bring to a boil, then reduce the heat and simmer on medium-low until the meat easily separates from the bone, about 2 hours. Be sure to skim any foam or fat that accumulates on the surface. Add water to replace any that evaporates.\n\n[timer:00:45:00,Bake beets]As the bones simmer, preheat the oven to [temperature:375F]. Place the beets in aluminum foil, drizzle with the olive oil, and wrap tightly. Roast until easily pierced with a fork, 45-60 minutes. Remove from the oven, let cool, then slip off the skins and cut the beets into French fry-sized strips. Set aside.\n\n[image:0]When the bones are ready, strain the broth and discard the vegetables and peppercorns, then return the broth to the stockpot. Set the meaty bones aside to cool; once cool, pick apart the meat and set aside. Discard the bones or reserve for making stock.\n\n[image:0]Coarsely chop the remaining half onion and grate the other carrot. In a skillet, warm the butter on medium heat, then add the chopped onion and sauté until softened, about 5 minutes. Add the minced garlic and tomato paste and sauté until aromatic, about 1 minute.\n\n[timer:00:10:00,Cook]Add the sautéed onion and garlic paste to the broth, along with the beets, red wine vinegar, and grated carrot. Bring to a simmer on medium heat, then add the shredded cabbage and cubed potatoes. Return to a simmer and cook for 10 more minutes, skimming any excess fat from the surface, then stir in the meat, parsley, and lemon juice. Season with salt and pepper to taste, about 1/2 tsp. each.\n\n[image:0]Cover, remove from the heat, and allow to brew for 20 minutes. Serve with a dollop of sour cream and fresh dill sprinkled on top. For a more flavorful soup, allow the soup to brew overnight and reheat the next day.
+Serves=8
+Spiciness=15
+Diets=2
+DefaultImage=0
+Images=borscht.jpg;
+Created=2017-2-16 19:20:4
+Modified=2017-2-25 4:15:52
+
+[R_Breakfast_Oats_Jar_by_adelia]
+Name=Breakfast Oats Jar
+Author=adelia
+Description=This recipe is great for those who usually don't have time for breakfast. Prepare it in mason jars/portable food containers the night before, and you can have your homemade breakfast on-the-go! Make a couple batches in advance if you know you won't have time. This recipe is also very flexible as you can make it vegan, or gluten-free simply by substituting the components i.e. dairy milk with coconut milk, honey with agave, or use gluten-free oats. Also, any fruits of your choice, fresh or frozen.
+Cuisine=
+Season=
+Category=breakfast
+PrepTime=Less than 15 minutes
+CookTime=
+Ingredients=½	cup	Rolled oats	\n½	cup	Yoghurt	\n⅔	cup	Milk	\n3	tbsp	Chia seeds	\n2	tsp	Honey	\n6	oz	Mixed berries	
+Instructions=[image:2]Add all the ingredients in a 16-oz container, or divide equally between two 8-oz containers.\n\n[image:0]Mix well. Cover with lid(s), and place in the refrigerator for at least 4 hours or overnight. Thanks to the chia seeds, the mixture will develop a pudding-like texture.\n\n[image:1]You can make ahead, but best to consume within 2-3 days.
+Serves=2
+Spiciness=0
+Diets=2
+DefaultImage=0
+Images=oats1.jpg;oats2.jpg;oats3.jpg;
+Created=2017-2-17 4:31:48
+Modified=2017-2-25 3:44:4
+
+[R_Carbonara_by_ebassi]
+Name=Carbonara
+Author=ebassi
+Description="Carbonara" is a sauce that can be used with long pasta, like spaghetti or fettuccine.
+Cuisine=italian
+Season=
+Category=pasta
+PrepTime=Less than 15 minutes
+CookTime=15 to 30 minutes
+Ingredients=200		grams of long pasta, e.g. spaghetti	\n1		whole egg	\n2		egg yolks	\n75		grams of parmesan cheese	\n50		grams of guanciale cubes	
+Instructions=Start by boiling about 1 litre of water for each 100g of pasta.\n\n\n[image:1]\nOnce the water is boiling, pour 20g of coarse salt in it for every litre of water, and then throw the spaghetti in.\n\n\nWhile the pasta is cooking, take a large bowl and put the parmesan cheese in it.\n\n\n[image:2]\nAdd the whole egg and the yolks to the parmesan, and beat the eggs until you get a creamy sauce.\n\n\n[image:3]\nPut the guanciale in a small pan with a teaspoon of oil, and shallow fry it until the fat is transparent and the meat is crispy; then remove from the fire.\n\n\n[image:5]\nOnce the pasta is ready, drain it and add it to the eggs and cheese. Then, add the guanciale.\n\n\n[image:6]\nSeason with salt and pepper to your liking.
+Notes=If you cannot find guanciale (cured pork cheek) you can substitute it with pancetta.
+Serves=2
+Diets=0
+Images=ebassi-carbonara-cover.JPG;ebassi-carbonara-01.JPG;ebassi-carbonara-02.JPG;ebassi-carbonara-03.JPG;ebassi-carbonara-04.JPG;ebassi-carbonara-05.JPG;ebassi-carbonara-06.JPG;
+DefaultImage=0
+Created=2016-12-5 23:57:31
+Modified=2017-2-14 16:55:42
+
+[R_Classic_Chicken_Noodle_Soup_by_link]
+Name=Classic Chicken Noodle Soup
+Author=link
+Description=A simple take on a typical American meal.
+Cuisine=american
+Season=
+Category=entree
+PrepTime=Less than 15 minutes
+CookTime=More than an hour
+Ingredients=1		whole chicken	\n4	stalks	celery	\n6		Carrot	\n32	fl. oz.	chicken stock	\n1		Onion	\n1	bunch	thyme	\n1	bunch	sage	\n1		Parsley	\n6		Egg	
+Instructions=If you haven't butchered the chicken, do so. Depending on how meaty you want the soup, you can use more or less of the butchered parts (I recommend the dark leg meat for the soup). Use the remaining parts for another dish.\n\nWash the celery, carrots and herbs. Slice the carrots and celery. Coarsely chop the onion. Prepare the herbs using kitchen twine in a bouquet garni.\n\n[timer:02:00:00]In a large pot, add the chicken, the stock, 2 carrots, 1 stalk of celery, the onion and the bouquet garni. Fill the pot with water to cover the chicken. Bring to a boil and simmer for at least 2 hours.\n\nUsing a cheese cloth strainer, strain the soup into another pot. Remove meat from the bones, gather any loose chicken and add it to the strained soup. Discard the bones and cooked vegetables.\n\nAdd the remaining carrots and celery to the soup. Bring to a boil and simmer for at least one hour. Season with salt and pepper to taste.\n\n[timer:00:10:00]Add noodles and simmer for about 10 minutes, until the noodles are done.
+Serves=4
+Spiciness=0
+Diets=16
+DefaultImage=0
+Images=chickensoup.jpg;
+Created=2017-1-2 19:50:29
+Modified=2017-2-25 3:44:4
+
+[R_Donauwellen_by_mclasen]
+Name=Donauwellen
+Author=mclasen
+Description=Donauwellen is a popular German cake with chocolate, vanilla cream and cherries. The name is due to the fact that the dough typically forms a wavy pattern.
+Cuisine=German
+Season=
+Category=cake
+PrepTime=20 minutes
+CookTime=40 minutes
+Ingredients=250	g	Butter	Dough\n350	g	Flour	Dough\n6		Egg	Dough\n200	g	Sugar	Dough\n1	pkg	Vanilla sugar	Dough\n½	pkg	Baking powder	Dough\n2	tbsp	Cocoa powder	Dough\n2	glass	Cherries, pitted	Dough\n¾	l	Milk	Toppings\n250	g	Butter	Toppings\n3	tbsp	Sugar	Toppings\n2	pkg	Vanilla pudding	Toppings\n2	pkg	Chocolate frosting	Toppings
+Instructions=[image:1]Mix the butter until it is creamy. Add sugar and egg.\n\n[image:2]Mix the flour with the baking powder and mix it in. Separate a third of the dough and add the cocoa powder to it.\n\n[image:4]Spread the light dough on a buttered baking sheet. Put the dark dough on top.\n\n[image:4]Use a fork to make a wavy pattern.\n\n[image:6]Spread the dried cherries on top of the dough.\n\n[timer:00:30:00,Bake]Bake for 30 minutes at [temperature:200C].\n\n[image:7]Use the milk, sugar and pudding to cook vanilla pudding and let it cool down while stirring it frequently. Slowly add spoonfuls of the butter, which should be at room temperature.\n\n[image:8]Spread the butter cream on the cooled cake.\n\n[image:9]Melt the chocolate frosting in a hot water bath and sprinkle it on top.
+Serves=10
+Spiciness=15
+Diets=10
+DefaultImage=0
+Images=donauwellen_final.jpg;donauwellen0.jpg;donauwellen1.jpg;donauwellen2.jpg;donauwellen3.jpg;donauwellen4.jpg;donauwellen5.jpg;donauwellen6.jpg;donauwellen7.jpg;donauwellen8.jpg;
+Created=2017-1-2 16:56:44
+Modified=2017-2-25 4:7:39
+
+[R_Gingered_Carrot_Soup_by_mwleeds]
+Name=Gingered Carrot Soup
+Author=mwleeds
+Description=A nutritious vegan soup that can be made relatively quickly
+Cuisine=
+Season=winter
+Category=entree
+PrepTime=Less than 15 minutes
+CookTime=15 to 30 minutes
+Ingredients=2	lb	Carrot	\n4	cup	Water	\n1	tbsp	Olive oil, extra-virgin	\n1 ½	cup	Onion	\n2	tsp	Garlic	\n2	tbsp	Ginger, freshly grated	\n1	tsp	Salt	\n¼	tsp	Cumin	\n¼	tsp	Ground fennel	\n¼	tsp	Cinnamon	\n3	tbsp	Lemon juice	\n1	cup	Cashews, lightly toasted	
+Instructions=Place carrots in large saucepan with water, cover, bring to a boil. Lower heat, simmer until very tender (10-15 minutes). While carrots are cooking, saute in olive oil all the onions, 5 minutes, then add garlic, ginger, salt, and spices. When all is well mingled, stir in lemon juice. Use food processor or blender to puree everything together (including all the toasted cashews). If you like a more textured soup, only half puree.\n\nGarnish with parsley, chives, mint or scallions if you want. Top with cayenne pepper if you want a spicier soup. You can also add any leftover grains like rice, barley, couscous, etc. at the last minute.\n\nThis is my Aunt Wendy's recipe.
+Serves=4
+Spiciness=0
+Diets=28
+DefaultImage=0
+Images=gingered_carrot_soup.jpg;
+Created=2017-1-22 20:52:9
+Modified=2017-2-25 3:44:4
+
+[R_Grumbeerekiechle_by_afranke]
+Name=Grumbeerekiechle
+Author=afranke
+Description=Traditional potato hash from Alsace. Usually served with lettuce, sometimes with smoked salmon.
+Cuisine=french
+Season=
+Category=entree
+PrepTime=15 to 30 minutes
+CookTime=15 to 30 minutes
+Ingredients=7		Potato	\n3	tbsp	Flour	\n3		Onion	\n1		Egg	\n1		Parsley	\n1		Oil	
+Instructions=[image:1]Peel and grate the potatoes. Peel and slice the onions. Mix with the rest of the ingredients in a large bowl.\n\nPut a frying pan on the hob at medium heat with a bit of oil.\n\n[image:2]Form thin patties in the pan and brown them on both sides.\n\n[image:0]Serve hot. Can be kept in a fridge and reheated in a micro-wave oven.
+Serves=4
+Spiciness=0
+Diets=24
+DefaultImage=0
+Images=grumbeerekiechle_3.JPG;grumbeerekiechle_1.JPG;grumbeerekiechle_2.JPG;
+Created=2017-1-26 15:52:35
+Modified=2017-2-25 3:44:4
+
+[R_Hazelnuts_Butter_by_feaneron]
+Name=Hazelnuts Butter
+Author=feaneron
+Description=Vegan Hazelnuts Butter that tastes like Nutella©, but better.
+Cuisine=
+Season=
+Category=dessert
+PrepTime=More than an hour
+CookTime=15 to 30 minutes
+Ingredients=6	tbsp	Cocoa powder	Cocoa Butter Version\n80	g	Cocoa butter	Cocoa Butter Version\n200	ml	Hazelnuts milk	Cocoa Butter Version\n150	g	Hazelnuts	Base\n100	g	Chocolate	Chocolate Version
+Instructions=Make the Hazelnuts Milk (see my Hazelnuts Milk recipe)\n\nPut the remaining paste in a bowl [image:0]\n\n(With Chocolate) Mix melted 75% vegan chocolate\n\n(With Cocoa Butter) Melt the cocoa butter [image:1]\n\n(With Cocoa Butter) Mix the hazelnuts milk, melted cocoa butter and the cocoa powder until the mass gets uniform [image:2]\n\nEnjoy [image:3]
+Notes=
+Serves=1
+Diets=29
+Images=hazelnutbutter1.jpg;hazelnutbutter2.jpg;hazelnutbutter3.jpg;hazelnutbutter4.jpg;
+Created=2017-2-27 0:24:25
+Modified=2017-2-27 0:29:15
+
+[R_Hazelnuts_Milk_by_feaneron]
+Name=Hazelnuts Milk
+Author=feaneron
+Description=Simple Hazelnuts Milk with a smooth, naturally sweet flavor.
+Cuisine=
+Season=
+Category=drinks
+PrepTime=More than an hour
+CookTime=Less than 15 minutes
+Ingredients=150	g	Hazelnuts	\n1	l	Water	
+Instructions=Preheat the over at [temperature:200C]\n\nPlace the hazelnuts in a tray [image:1]\n\nLeave the tray in the oven for 15 minutes [timer:00:15:00]\n\nPut water in the tray and peel the hazelnuts. Some will peel easily, while others will require manual peeling [image:2]\n\nLeave the hazelnuts underwater at least for 4 hours, or overnight\n\nWhisk the nuts and 1l of water with the blender until it gets thicker [image:3]\n\nFilter the resulting liquid with a nut milk sack (voal sack) [image:4]\n\n(Optional) You can make hazelnuts butter with the remaining paste (see my Hazelnuts Butter recipe) [image:5]\n\nEnjoy your milk [image:6]
+Notes=
+Serves=1
+Diets=29
+Images=hazelnutmilk1.jpg;hazelnutmilk2.jpg;hazelnutmilk3.jpg;hazelnutmilk4.jpg;hazelnutmilk5.jpg;hazelnutmilk6.jpg;hazelnutmilk7.jpg;
+Created=2017-2-27 0:8:42
+Modified=2017-2-27 0:12:18
+
+[R_Kiwi-Mandarin_Salsa_by_bastian]
+Name=Kiwi-Mandarin Salsa
+Author=bastian
+Description=This salad is a sweet and sour addition which work well to most main courses, for example lasagna. The juicy fruits inside makes it a very refreshing salad.
+Cuisine=Hawaiian
+Season=summer
+Category=side
+PrepTime=15 to 30 minutes
+CookTime=
+Ingredients=4		Kiwis	\n4		Mandarin Oranges	\n1		Red Pepper	\n75	g	Baby Spinach	\n		Lime Juice	
+Instructions=[image:1]Wash the fruits and vegetables well.\n\n[image:2]Peel, slice and cut the kiwi into triangular pieces.\n\n[image:3]Peel the orange and cut it in pieces.\n\n[image:4]Cut the red pepper in thin slices.\n\n[image:0]Mix fruits and vegetables in a bowl.\n\n[image:5]Add lime as you please.\n\n[image:6]Enjoy!
+Serves=4
+Spiciness=15
+Diets=31
+DefaultImage=0
+Images=kiwi-mandarin1.jpg;kiwi-mandarin2.jpg;kiwi-mandarin3.jpg;kiwi-mandarin4.jpg;kiwi-mandarin5.jpg;kiwi-mandarin6.jpg;kiwi-mandarin7.jpg;
+Created=2017-2-19 11:35:2
+Modified=2017-2-25 3:44:36
+
+[R_Leicht_Bratkartoffeln_by_sylvia]
+Name=Sylvia's Bratkartoffeln
+Author=sylvia
+Description=Meatless version of a German classic.\nSuitable for oven cooking.
+Cuisine=European
+Season=fall
+Category=entree
+PrepTime=Less than 15 minutes
+CookTime=15 to 30 minutes
+Ingredients=1	kg	Potato	\n250	g	Cheese	\n2		Onion	\n1		Olive oil, extra-virgin	\n1		Salt	\n1		Pepper	
+Instructions=Peel and chop potatoes to fry, preferably in thick chips.\n\nPeel and chop the onions.\n\nPrepare the cheese  (if it's not already).\n\nHeat abundant oil and when is ready, carefully add the potatoes.\n\nOnce potatoes are half made, add the onions, and when everything is ready add the cheese.\n\n** Alternatively, you can add the cheese at the moment of serving it.\n** If you're using tofu, prepare the tofu first and add it at the moment of serving.
+Notes=You can make it vegan, switching the cheese for vegan cheese or tofu.\nYou can use prepared cheese (like grated or shredded), but it tastes better if you use the fresh one and prepare it yourself.
+Serves=6
+Diets=11
+Images=kaese-bratkartoffeln.jpg;
+Created=2017-2-23 12:46:16
+Modified=2017-2-24 10:4:15
+
+[R_Mantovana_Cake_by_adelia]
+Name=Mantovana Cake
+Author=adelia
+Description=Mantovana cake (or Torta Mantovana in Italian) is a Tuscan classic. It is simple, yet rich and delicious. Very good for breakfast - Italian style - or as snacks, accompanied with coffee or tea. A small note; the vanilla baking powder is typical in Italy for baked sweet goods, and negates the need to add vanilla extract separately to a recipe. You are fine just using regular baking powder, but remember to add 1/2 teaspoon of vanilla extract. If you can't get hold of the vanilla powdered sugar for dusting, just use the regular powdered sugar.
+Cuisine=italian
+Season=
+Category=cake
+PrepTime=15 to 30 minutes
+CookTime=30 to 45 minutes
+Ingredients=170	g	Caster sugar	\n3		Egg yolks	\n1		Egg	\n170	g	Cake flour	\n1	tsp	Vanilla baking powder	\n1		Zest of 1 lemon (organic)	\n150	g	Butter, melted	\n50	g	Slivered almonds, toasted	\n1		Vanilla powdered sugar, for dusting	
+Instructions=[image:0]Preheat oven to [temperature:180C]. Line a 9-inch round cake pan with parchment paper and grease well.\n\n[image:0]Combine eggs and sugar in a mixing bowl. Beat (using a hand mixer) until light and fluffy.\n\n[image:0]Into the mixture, add half of the flour and give it a little mix. Add the rest of the flour, together with the baking powder and lemon zest. Mix until the batter is just combined. Don't overmix. \n\n[image:0]Add the melted butter to the mixture. Using a spatula, stir to mix well.\n\n[image:0]Pour the batter into a 9-inch round baking pan. Sprinkle the almonds on top making sure to cover the surface evenly.\n\n[timer:00:25:00,Bake]Bake for 25-30 minutes or until a cake tester inserted into the center cake comes out clean. The cake should have a nice golden colour.\n\n[image:0]Let rest in the pan for 10 minutes, then invert onto a cooling rack to cool completely.\n\n[image:0]Before serving, dust the top generously with vanilla powdered sugar.
+Serves=6
+Spiciness=15
+Diets=0
+DefaultImage=0
+Images=mantovana.jpg;
+Created=2017-2-16 4:18:29
+Modified=2017-2-25 4:16:25
+
+[R_Nasi_Lemak__Coconut_Rice__by_adelia]
+Name=Nasi Lemak (Coconut Rice)
+Author=adelia
+Description=This is a truly Malaysian dish, very typically eaten for breakfast. It is a delightful combination of boiled rice, coconut milk and pandan (screwpine leaves), eaten with the sambal (hot sauce), and accompaniments such as sliced cucumbers, hard-boiled eggs, fried dried anchovies and fried groundnuts.\nSee my recipe for Sambal Ikan Bilis (Hot Sauce with Anchovies) to complete this dish.\nIn this recipe, I outlined the steps to cook the rice on a stove. If you have a rice cooker, then you'll only have two steps; 1) Combine all ingredients in the pot of the rice cooker, and 2) Hit the "cook" button.
+Cuisine=Malaysian
+Season=
+Category=breakfast
+PrepTime=Less than 15 minutes
+CookTime=30 to 45 minutes
+Ingredients=2.5	cup	Basmati rice	\n1	cup	Coconut milk	\n1.5	cup	Water	\n6		Shallots	\n3		Garlic	\n2	cm	Ginger	\n2		Pandan leaves	\n1		Salt	\n1	tsp	Fenugreek seeds (optional)	
+Instructions=Prepare the rice; rinse, soak for 30 minutes, and drain. You can also use any long-grain rice instead of basmati.\n\n[image:0]Peel the shallots, garlic and ginger, then slice them thinly.\n\n[image:1]Mix the coconut milk, water, shallots, garlic and ginger in a medium-sized pot. Tie the pandan leaves in a knot, and add it to the mixture. If you can't get a hold of pandan, use one stalk of lemongrass as a substitute. Peel the tough outer leaves, slice off the lower bulb and the upper end of the stalk that is green and woody. Crush the lower bulby end, and throw it into the mixture. Season the mixture with salt. It should taste salty enough, and a bit more.\n\nBring the mixture to a boil.\n\nWhen the mixture has come to a boil, stir in the salt and fenugreek seeds (if using), and bring it back to a gentle simmer.\n\nCover the pot and turn the heat down to low. Don't take off the lid while the rice is cooking.\n\nStart checking the rice at around 20 minutes. When done, the rice will be firm but tender, and no longer crunchy.\n\nTurn off the heat and let stand about 5-7 minutes, covered.\n\nRemove the lid, and fluff up the rice with a fork. Let it stand for a few more minutes to dry out the steam.\n\n[image:2]Serve with sambal ikan bilis (hot sauce with anchovies), sunny-side up or hard-boiled egg, sliced cucumbers.
+Notes=
+Serves=4
+Diets=0
+DefaultImage=3
+Images=nasilemak1.jpg;nasilemak2.jpg;nasilemak3.jpg;sambalikan7.jpg;
+Created=2017-2-25 21:10:21
+Modified=2017-3-9 5:40:21
+
+[R_Non-knead_buns_by_tigert]
+Name=Non-knead buns
+Author=tigert
+Description=Very quick fresh bread for breakfast with 5 minutes of work.
+Cuisine=
+Season=
+Category=cake
+PrepTime=Less than 15 minutes
+CookTime=15 minutes
+Ingredients=4	dl	cold water	\n8	dl	wheat flour	\n1	tsp	Salt	\n½	tsp	dry yeast	
+Instructions=[image:1]Preparation: Mix together all of the ingredients in a large bowl into a thick porridge-like dough. Do not knead the dough, just mix it together. \n\nCover and leave to rise in room temperature for 8-12 hours. This can be done for example the previous night so you can bake them in the morning.\n\nBaking: Heat your oven to [temperature:250C].\n\n[image:3]The dough will be more than double in size and full of bubbles and very sticky. Pour a generous amount of flour on your baking surface so it doesn't stick, and pour the dough over it.\n\n[image:4]Form the dough into a thick snake, about the diameter of your arm and cut bun-sized pieces with scissors onto the baking sheet.\n\n[timer:00:15:00]Bake until nice and brown, this will take approximately 15 minutes.\n\n[image:5]You can substitute half of the wheat flour with oats, seeds or different kind of flour if you want variety.\n\n[image:0]Enjoy!
+Serves=4
+Spiciness=15
+Diets=30
+DefaultImage=0
+Images=non_knead_buns.png;non_knead_buns1.jpg;non_knead_buns2.jpg;non_knead_buns3.jpg;non_knead_buns4.jpg;non_knead_buns5.jpg;
+Created=2017-1-27 15:18:43
+Modified=2017-2-25 3:44:4
+
+[R_Pan_pizza_by_fyksen]
+Name=Pan pizza
+Author=fyksen
+Description=Pizza is an all-time favorite.
+Cuisine=american
+Season=
+Category=pizza
+PrepTime=More than an hour
+CookTime=15 to 30 minutes
+Ingredients=200	g	Flour	Dough\n2	g	Yeast	Dough\n135	g	Water	Dough\n4	g	Olive oil, extra-virgin	Dough\n100	g	Pizza sauce	Toppings\n200	g	Cheese	Toppings\n200	g	Peperoni	Toppings
+Instructions=Put the flour, yeast, water and olive oil in a bowl and stir it up with your hands or a spoon until there's no dry flour left, and let it be.\n\nCover the bowl tightly in plastic wrap and let it sit at room temperature overnight. \n\nThe next day it should have rosen quite a bit. Dump it all out onto a floured surface, then divide it into balls.\n\nSpread olive oil in a 10-inch cast iron skillet or round cake pan and place a dough ball in the middle.\n\nRub the dough ball around and flip it a couple times until it is completely coated in oil and the oil completely coats the bottom and sides of the pan. Cover in plastic, and let it sit for another couple of hours without touching it.\n\nThe dough should have spread on it own (takes about 2 hours). Lift the sides of the dough to let big air bubbles out.\n\nPut in the oven at [temperature:280C]. (or as hot as your oven goes) for about 15 minutes. Peek underneath and if your pizza is a little pale, you can finish on the stovetop directly over medium heat until it is as dark and crisp as you like it.
+Serves=4
+Spiciness=0
+Diets=2
+DefaultImage=0
+Images=pan_pizza1.png;pan_pizza2.png;pan_pizza3.png;
+Created=2016-12-19 13:42:15
+Modified=2017-2-25 3:44:4
+
+[R_Pineapple_Upside_Down_Cake_with_Hot_Buttered_Rum_Sauce_by_aday]
+Name=Pineapple Upside Down Cake with Hot Buttered Rum Sauce
+Author=aday
+Description=This is a delicious, boozy update on a classic cake. The combination of rum and pineapple gives it a distinctively Caribbean flavor.
+Cuisine=
+Season=
+Category=cake
+PrepTime=15 to 30 minutes
+CookTime=30 to 45 minutes
+Ingredients=2	tbsp	Unsalted butter	Sauce\n120	ml	Dark Jamaican rum	Sauce\n100	g	Light muscovado sugar	Sauce\n120	ml	Double cream	Sauce\n125	g	Golden caster sugar	Cake\n150	g	Plain flour	Cake\n2	tsp	Baking powder	Cake\n1	tsp	Vanilla Extract	Cake\n3	tbsp	Dark Jamaican rum	Cake\n1		Lemon	Cake\n2		Large eggs	Cake\n75	ml	Semi-skimmed milk	Cake\n430	g	Tinned pineapple rings	Cake\n50	g	Unsalted butter	Cake
+Instructions=Preheat the oven to [temperature:175C] (gas mark 4).\n\nGrease a round 20 cm cake tin.\n\nLine the bottom of the tin with as many whole pineapple rings as will fit. Cut the remaining rings in half and use them to line the sides of the tin.\n\nCrack the eggs into a bowl and add the caster sugar. Whisk until pale and light (an electric whisk is good for this, but not essential).\n\nIn a different bowl, combine the flour and baking powder, and then sift into the egg and sugar mixture, mixing as you go.\n\nMelt the butter and combine with the milk, rum and vanilla extract. Zest half the lemon and add.\n\nMix the wet mixture into the rest of the ingredients.\n\n[timer:00:40:00,Bake]Poor the cake mixture into the cake tin and bake for around 40 minutes, until the top is light brown and an inserted skewer comes out clean.\n\n[timer:00:05:00,Cool]Leave the cake to cool for 5 minutes, then turn out on to a rack to cool completely.\n\nWhen it's time to eat, make the sauce: combine the muscovado sugar and cream in a saucepan and heat until the sugar has dissolved. Add the rum and simmer until it has thickened a little, then add the butter and let it melt into the sauce.\n\nPour the hot sauce over the cake and serve.
+Serves=6
+Spiciness=15
+Diets=8
+DefaultImage=0
+Images=pineapple_upside_down.jpg;
+Created=2017-1-16 13:45:25
+Modified=2017-2-25 4:12:22
+
+[R_Pizzaburger_by_erusan]
+Name=Pizzaburger
+Author=erusan
+Description=Tomato dough with hamburger and cheese topping
+Cuisine=american
+Season=winter
+Category=entree
+PrepTime=15 to 30 minutes
+CookTime=15 to 30 minutes
+Ingredients=1	pkg	Yeast	\n2	cup	Tomato sauce	\n1	tbsp	Vegetable oil	\n1/2	tsp	Salt	\n1	tbsp	Sugar	\n3	tsp	Chili powder	\n2 1/2	cup	Flour	\n1	lb	Ground beef	\n1		Onion	\n1	lb	Cheese slices	
+Instructions=Dissolve yeast in warm water. Let stand for 2 minutes.\n\nAdd 1/2 cup tomato sauce, oil, salt, 1 tsp chili powder, and sugar. Mix well.\n\nGradually stir in flour. Dough will become sticky.\nOptional: Let rise covered in a warm place for about an hour.\n\nBrown diced onion and hamburger in frying pan.\n\nAdd remaining 1 1/2 cups tomato sauce, salt, pepper, and 2 tsp chili powder.\n\nRemove from heat.\nSpread dough on greased cookie sheet (will be somewhat springy and pull back as it is spread out).\n\nTop with hamburger mixture and cover with cheese slices.\n\n[timer:00:20:00]Bake at [temperature:400F] for 20 to 30 minutes until dough is baked.
+Serves=5
+Spiciness=0
+Diets=2
+DefaultImage=0
+Images=pizzaburger.jpg;
+Created=2017-1-19 21:39:10
+Modified=2017-2-25 3:44:4
+
+[R_R_kost_by_bastian]
+Name=Råkost
+Author=bastian
+Description=A sweet and sour addition to your dinner. This salad has many variations of it and is a common winter side dish in Denmark.
+Cuisine=nordic
+Season=winter
+Category=side
+PrepTime=Less than 15 minutes
+CookTime=
+Ingredients=5		Carrot	\n2		Apple	\n125	g	Blueberry	\n		Linseeds	\n		Lime	
+Instructions=[image:1]Grate the carrots on the fine side of the grater.\n\n[image:0]Spread the carrot equally in a platter.\n\n[image:0]Divide and cut the apples into small bite-size pieces.\n\n[image:0]Distribute the apples and blueberrys on top of the carrot.\n\n[image:0]Divide a lime in two and squeeze its juices across the whole platter.\n\n[image:2]Sprinkle a bit with linseeds if you want and it's then ready to eat. :-)
+Serves=2
+Spiciness=0
+Diets=31
+DefaultImage=0
+Images=rakost1.jpg;rakost2.jpg;rakost3.jpg;
+Created=2017-2-22 14:4:51
+Modified=2017-2-25 3:44:4
+
+[R_Roots_Pie_by_bastian]
+Name=Roots Pie
+Author=bastian
+Description=This vegetable pie is my own spin off a traditional recipe. It has great taste, crusty dough and fancy colors too.
+Cuisine=nordic
+Season=winter
+Category=entree
+PrepTime=More than an hour
+CookTime=30 to 45 minutes
+Ingredients=200	g	Flour	Dough\n50	g	Butter	Dough\n1	tsp	Salt	Dough\n4	tbsp	Water	Dough\n1	dl	Yoghurt	Dough\n200	g	Beetroot	Contents\n200	g	Kale	Contents\n200	g	Carrot	Contents\n1		Red onion	Contents\n4		Egg	Contents\n150	g	Cheese	Contents\n3	dl	Yoghurt	Contents\n		Salt	Contents\n		Pepper	Contents\n		Linseeds	Contents
+Instructions=[image:12]Turn on the oven at [temperature:200C].\n\n[image:2]Pour flour on the table, add salt. Divide the butter into small pieces and add water.\n\n[image:3]Use the butter, water and yoghurt to work it all into a dough.\n\n[image:4]Find a pie form.\n\n[image:5]Takes pieces of the dough and start filling the pie form, until the whole form is full.\n\n[image:6]Find a fork and punch holes in the bottom.\n\n[timer:00:15:00,Pre-bake]Pre-bake the dough for 15 minutes in the oven.\n\n[image:7]Peel and chop the vegetables. Beetroots color a lot, so be careful. Do them last.\n\n[image:8]Mix eggs, cheese, yoghurt, salt and pepper in a bowl.\n\n[image:9]Add beetroot, kale and lastly carrot to the pie.\n\n[image:10]Pour the contents of the bowl over the vegetables so all of the pie is covered.\n\n[image:11]Decorate with extra cheese and linseeds for extra sazz.\n\n[timer:00:35:00,Bake]Bake the pie in the oven for 35 minutes.\n\n[image:1]Enjoy!
+Serves=4
+Spiciness=15
+Diets=10
+DefaultImage=0
+Images=rootspie1.jpg;rootspie2.jpg;rootspie3.jpg;rootspie4.jpg;rootspie5.jpg;rootspie6.jpg;rootspie7.jpg;rootspie8.jpg;rootspie9.jpg;rootspie10.jpg;rootspie11.jpg;rootspie12.jpg;rootspie13.jpg;
+Created=2017-2-13 22:51:49
+Modified=2017-2-25 4:4:0
+
+[R_Rosemary_Scalloped_Potatoes_by_erusan]
+Name=Rosemary Scalloped Potatoes
+Author=erusan
+Description=A holiday twist on a classic American comfort food dish. Easy to make and sure to please.
+Cuisine=american
+Season=thanksgiving
+Category=side
+PrepTime=15 to 30 minutes
+CookTime=More than an hour
+Ingredients=5		Potato	\n1		Onion	\n1	oz	Cream cheese	\n1	cup	Half and half	\n1	cup	Parmesan cheese, grated	\n2	tbsp	Fresh rosemary	\n3		Green onions	\n1/2	tbsp	Salt	\n1/2	tsp	Pepper	\n1/2	tsp	Garlic	\n8	tbsp	Butter	
+Instructions=Substitutions and conversions:\n5 potatoes = 5 cans sliced potatoes\n1 stick butter = 8 Tbsp butter\n4 cloves garlic = 1/2 tsp powdered garlic\n8 oz cream cheese = 1 pouch\n1 cup half and half = one small carton\n1 cup grated parmesan = 1 small bag\n\nPreheat oven to [temperature:350F].\n\nButter a 13x9 baking dish.\n\nInto buttered baking dish:\n- Add 5 thinly sliced (use a mandoline) russet potatoes, or 5 cans rinsed pre-sliced potatoes.\n- Salt and pepper potatoes (more will be added to creamy mixture later), stir lightly to separate slices.\n\nIn a frying pan on medium to medium-low heat:\n- Melt 1 stick of butter.\n- Add 1 chopped onion, garlic. Saute until translucent (about 5 minutes).\n- Add 8 oz cream cheese (quartered to help it melt faster).\n- When cream cheese is melted, add 1 cup half and half.\n- Add salt and pepper to taste. (Don't be afraid to use more salt than you expect — it's a large dish, and potatoes need flavoring.) Recommend 1/2 Tbsp salt and 1/2 tsp pepper.\n- Add finely chopped fresh rosemary and chopped green onions.\n- Add 1/2 cup grated parmesan and melt into mixture.\n\nTo bake:\n- Pour mixture over potatoes, stirring a bit to help the sauce cover everywhere. If using canned potatoes, be sure to separate the slices which are otherwise stuck together and prevent the mixture from seeping in.\n- Spread remaining cheese over top to provide a nice texture and cheese flavoring.\n- Bake for 1 to 1 1/2 hours, until liquid is bubbling and top cheese is browning.\n\nNote: Don't be afraid to use extra parmesan cheese and cream (half and half). This recipe makes just enough sauce, but extra creaminess never hurts, especially if you're using canned sliced potatoes. Garlic can be increased to taste, but be careful not to let the garlic overtake the rosemary.
+Serves=8
+Spiciness=0
+Diets=11
+DefaultImage=0
+Images=rosemary-potatos1.jpg;rosemary-potatos2.jpg;
+Created=2017-1-20 3:53:19
+Modified=2017-2-25 3:44:4
+
+[R_Salmon_Fried_Rice_by_adelia]
+Name=Salmon Fried Rice
+Author=adelia
+Description=A simple dish to throw together especially when you have leftover cooked rice and leftover baked/grilled salmon. \nWhat if you want to make Salmon Fried Rice now and don't have leftover rice and salmon? Easy; cook the rice and let it cool completely (uncovered for 15 minutes immediately after rice is just cooked, and then cover until you're ready to cook). Use frozen salmon fillets, but make sure to thaw sufficiently.\nIn this recipe, I'll show you how to do it.
+Cuisine=Asian
+Season=
+Category=entree
+PrepTime=30 to 45 minutes
+CookTime=Less than 15 minutes
+Ingredients=6	oz	Salmon	\n1		Salt	\n1		Olive oil	\n600	g	Rice, cooked	\n3		Garlic	\n2	tsp	Chili powder	\n2	stalks	Spring onion	\n1		Sesame oil	
+Instructions=[image:0]Preheat the oven to [temperature:200C] and line a baking dish with aluminium foil. Rinse the salmon and pat dry. Drizzle a bit of olive oil and sprinkle salt on both sides of salmon. Bake in the oven for 15-20 minutes, until the flesh is cooked through. Alternatively, you can grill or pan-fry the salmon.\n\n[image:1]Allow the salmon to cool, flake the flesh and set aside.\n\n[image:2]Peel and crush the garlic. Finely chop the spring onions.\n\n[image:3]Heat the sesame oil in a wok, or skillet, and when hot, add the spring onions and garlic. Toss for about 1 minute.\n\n[image:4]Add the chili powder and toss for about 1 minute.\n\n[image:5]Add a couple tablespoons of water to loosen up the mixture, then stir to mix.\n\n[image:6]Add the rice and break the chunk of rice so the rice fry out and mix well together.\n\n[image:7]Add the fish and toss the rice again.\n\nAdd the fish sauce to taste. Fish sauce has a strong smell; if you don't fancy it, you can substitute it with soy sauce. Mix well to incorporate all the flavours.\n\n[image:8]Serve immediately with sunny-side up eggs, and garnish with spring onions.
+Serves=3
+Spiciness=0
+Diets=0
+DefaultImage=8
+Images=salmonrice1.jpg;salmonrice2.jpg;salmonrice3.jpg;salmonrice4.jpg;salmonrice5.jpg;salmonrice6.jpg;salmonrice7.jpg;salmonrice8.jpg;salmonrice9.jpg;
+Created=2017-2-23 20:54:53
+Modified=2017-2-25 3:44:4
+
+
+[R_Sambal_Ikan_Bilis__Hot_Sauce_with_Dried_Anchovies__by_adelia]
+Name=Sambal Ikan Bilis (Hot Sauce with Dried Anchovies)
+Author=adelia
+Description=The sambal (hot sauce) is an essential component of nasi lemak. For this sambal, dried anchovies (ikan bilis) are used. These little salted fish can be found in Asian specialty supermarkets.
+Cuisine=Malaysian
+Season=
+Category=breakfast
+PrepTime=15 to 30 minutes
+CookTime=More than an hour
+Ingredients=60	g	Dried chillies	\n60	g	Dried anchovies	\n8		Shallots	\n4		Garlic	\n1.5	cm	Ginger	\n2	cup	Water	\n¼	cup	Coconut milk	\n1		Large onion	\n¾	tbsp	Tamarind paste	\n3	tbsp	Brown sugar	\n2	tsp	Salt	\n1		Coconut oil	
+Instructions=[image:0]Prep the dried chillies; remove the stalks, cut in 1-inch pieces and remove the seeds. Rinse, then soak in hot water to soften.\n\n[image:1]Prep the dried anchovies; rinse, and soak in hot water to soften. Then drain and pat dry.\n\nPeel the shallots, ginger and garlic. Put them in a blender together with the prepped dried chillies. Add 1 cup of water. Blend to a puree.\n\n[image:2]Heat 1/4 cup of coconut oil in a pan and stir-fry the chilli-spice puree until the oil separates, about 20 minutes.\n\n[image:3]Pan-fry the dried anchovies in a separate small pan/skillet - using enough oil to cover bottom of pan - until light golden brown. Set aside.\n\nTake the large onion, quarter it and slice across. Add these onions and the fried anchovies into the chilli-spice mixture and cook until the onion is transparent.\n\nAdd the coconut milk, tamarind paste and remaining 1 cup water, and bring to a boil on medium heat.\n\n[image:4]Turn the heat down to low. Season with sugar and salt. The sambal must have a hint of sweetness.\n\n[image:5]Let the sambal simmer uncovered until oil appears on the surface. Stir every 15 minutes. This will take about an hour. The sambal will turn into a deep red shade.\n\n[image:6]Serve with nasi lemak (coconut rice).
+Notes=
+Serves=4
+Diets=0
+DefaultImage=5
+Images=sambalikan1.jpg;sambalikan2.jpg;sambalikan3.jpg;sambalikan4.jpg;sambalikan5.jpg;sambalikan6.jpg;sambalikan7.jpg;
+Created=2017-2-25 22:10:40
+Modified=2017-3-9 5:41:29
+
+[R_Savoury_cakes_by_afranke]
+Name=Savoury cakes
+Author=afranke
+Description=These savory cakes can be served as appetizers or as main course. There are several variations that you can bake with the same base depending on your mood and tastes. Quite common at French parties.
+Cuisine=french
+Season=
+Category=entree
+PrepTime=Less than 15 minutes
+CookTime=30 to 45 minutes
+Ingredients=100	g	Lardons	Cake aux lardons\n50	g	Green olive	Cake aux lardons\n150	g	grated French emmental	Cake aux lardons\n1	tsp	Thyme	Cake aux lardons\n200	g	Flour	Batter\n1		sachet levure	Batter\n4		Egg	Batter\n125	g	Butter	Batter\n150	g	Tuna fish	Cake au thon et à la tomate\n2		Tomato	Cake au thon et à la tomate\n150	g	Goat cheese	Cake chèvre-épinards\n300	g	Spinach	Cake chèvre-épinards\n100	g	Chorizo	Cake noix-chorizo\n80	g	Nut	Cake noix-chorizo\n150	g	grated French emmental	Cake noix-chorizo\n100	g	Ham	Cake jambon-champignons\n100	g	Button mushroom	Cake jambon-champignons\n150	g	grated French emmental	Cake jambon-champignons
+Instructions=Prepare the batter: melt butter in a large bowl, then mix with the eggs, flour and yeast in a bowl.\n\nAdd the ingredients matching the variation you chose, preferably sliced or diced to turn them into small bits, and mix again. Try coming up with your own variations!\n\nPour the batter in a loaf tin.\n\n[timer:00:40:00,Bake]Put in the oven at [temperature:180C] for 40 minutes.\n\n[image:1]Serve cold, cut in slices or cubes that people will get with a toothpick.
+Serves=6
+Spiciness=15
+Diets=0
+DefaultImage=0
+Images=cake_aux_lardons.jpg;cake_aux_lardons2.jpg;
+Created=2017-1-15 16:12:39
+Modified=2017-2-25 4:10:53
+
+[R_Spanish_Omelet_by_adria]
+Name=Spanish Omelet
+Author=adria
+Description=Traditional Spanish Omelet, also known as "Tortilla de Patata"
+Cuisine=mediterranean
+Season=
+Category=entree
+PrepTime=45 minutes to an hour
+CookTime=30 to 45 minutes
+Ingredients=6		Egg	\n500	g	Potato	\n200	ml	Oil	\n100	g	Onion	\n1	tbsp	Salt	
+Instructions=[image:0]Put a bit of oil in a pan and cover the surface with sliced onions.\n\n[image:3]Meanwhile, peel the potatoes and cut them in small pieces.\n\n[image:2]Once the onions start to take colour, put the potatoes into the pan and add some salt.\n\n[image:1]Cover the pan and stir the contents from time to time, until potatoes are well cooked.\n\n[image:7]Put the eggs in a big bowl and add some salt\n\n[image:6]Whip the eggs.\n\n[image:5]Put the contents of the pan in the bowl and mix it well.\n\n[image:4]Add some oil to the pan and put the whole mix back into the pan.\n\n[image:8]Once the lower side is cooked, with the help of a plate, turn the omelet.\nRepeat the process until it is well cooked.
+Serves=6
+Spiciness=0
+Diets=19
+DefaultImage=8
+Images=spanish_omelet1.jpg;spanish_omelet2.jpg;spanish_omelet3.jpg;spanish_omelet4.jpg;spanish_omelet5.jpg;spanish_omelet6.jpg;spanish_omelet7.jpg;spanish_omelet8.jpg;spanish_omelet9.jpg;
+Created=2017-1-31 17:18:10
+Modified=2017-2-25 3:44:4
+
+[R_Tagliatelle_alla_Romana_by_aday]
+Name=Tagliatelle alla Romana
+Author=aday
+Description=Pasta is one of my favourite things in the world, and this is one of my favourity pasta dishes. It's gutsy Italian food at its best.\n\nIt's important to have good quality chicken livers for this recipe - get free range organic if possible. You can use dried pasta if you're unable to get fresh.
+Cuisine=italian
+Season=
+Category=entree
+PrepTime=Less than 15 minutes
+CookTime=15 to 30 minutes
+Ingredients=25	g	Unsalted butter	\n2	tbsp	Olive oil, extra-virgin	\n1		Small red onion	\n200	g	Chicken livers	\n400	g	Canned chopped tomatoes	\n250	g	Fresh tagliatelle	\n1		Salt and pepper	
+Instructions=Rinse the chicken livers and cut out any out any bits of sinew. Dry and season with salt and pepper.\n\nFinely chop the red onion.\n\nMelt half the butter in a frying pan, then add the olive oil and cook the onion until soft, without letting it brown.\n\nAdd the livers to the pan and fry until lightly browned. Then add the tomatoes and cook on a low heat for 20 minutes, stirring occasionally.\n\nPut a deep pan of water on to boil and add a good pinch of salt to the water.\n\nRemove the livers from the pan and chop finely. Then add back to the sauce and continue to cook. Check for seasoning and add more salt and pepper if necessary.\n\nCook the pasta for 3 minutes if fresh (or put on earlier and follow packet instructions if using dry pasta).\n\nDrain the pasta, retaining a cup of the pasta water. Add the pasta to the sauce along with the remaining butter. Mix and cook on a low heat for several minutes, to allow the pasta to absorb the sauce.\n\nIf the sauce needs loosening, add a bit of the pasta cooking water.\n\nServe with plenty of black pepper.
+Serves=3
+Spiciness=0
+Diets=18
+DefaultImage=0
+Images=tagliatelle1.jpg;tagliatelle2.jpg;tagliatelle3.jpg;tagliatelle4.jpg;
+Created=2017-2-9 22:47:6
+Modified=2017-2-25 3:44:4
+
+[R_Tofu__Egg__Scramble_by_halfline]
+Name=Tofu ‘Egg’ Scramble
+Author=halfline
+Description=This vegan breakfast staple is perfect on a lazy saturday morning.
+Cuisine=american
+Season=
+Category=breakfast
+PrepTime=Less than 15 minutes
+CookTime=Less than 15 minutes
+Ingredients=1	pkg	mori-nu organic silken tofu (firm)	\n1		medium Onion	\n1	pkg	mixed frozen bell peppers	\n1	tbsp	Soy sauce (tamari)	\n2	tbsp	Nutritional yeast	\n1	tsp	Garlic powder	\n1	tsp	Onion powder	\n1	tsp	Dry or fresh cilantro	\n½	tsp	Turmeric ground	\n½	tbsp	Earth Balance vegan buttery stick	
+Instructions=[image:0]Chop the onion. Open up the tofu package and slice it up, then crumble with your hands.\n\n[timer:00:03:00,Sautee]Sautee the onion, tofu, and peppers for 3-5 minutes using the vegan butter.\n\n[timer:00:05:00,Cook]Turn heat down to medium and add the rest of the ingredients – cook for 5-7 minutes more.
+Serves=4
+Spiciness=15
+Diets=4
+DefaultImage=0
+Images=tofuscramble.jpg;
+Created=2016-12-6 15:6:8
+Modified=2017-2-25 4:6:48
+
+[R_Traditional_South_Indian_Tomato_Chicken_Curry_Fast_Version_by_erusan]
+Name=Traditional South Indian Tomato Chicken Curry, Fast Version
+Author=erusan
+Description=A quick and easy version of a traditional South Indian chicken curry dish, learned from a Mallu immigrant and cook.
+Cuisine=indian
+Season=
+Category=entree
+PrepTime=Less than 15 minutes
+CookTime=15 to 30 minutes
+Ingredients=1	tbsp	Mustard seeds	\n1	tbsp	Garlic powder	\n2	tsp	Tumeric ground	\n1/2	tbsp	Coriander	\n1/2	tsp	Cumin	\n1/2	tsp	Ginger ground	\n1/4	tsp	Cinnamon	\n1	tsp	Salt	\n1	tsp	Pepper	\n3	tbsp	Olive oil, extra-virgin	\n5		Chicken breasts, large	\n1		Onion, large	\n2		Tomatoes, medium	\n2	cup	Rice	
+Instructions=Preparation:\nCube 5 large chicken breasts (about 4 cups) into 1-1.5 inch cubes\nThinly slice 1 large onion, chopping the final quarter of the onion\nChop 2 medium tomatoes into large chunks\n\nCooking:\nIn a large pot, heat 1 tbsp olive oil at medium/medium-high heat. Once oil is hot, add mustard seeds and fry until they pop (cover the pot to prevent splashing). Too much heat will burn the seeds.\n\nOnce seeds have popped, turn down the heat to medium and add thinly sliced onion. Cover to retain moisture. Cook until translucent, stirring frequently. Add small amounts of water as necessary.\n\nWhile onions are cooking, blend remaining chopped onion and tomatoes to create a puree. Add water if necessary.\n\nOnce onions are translucent, increase heat to medium-high and immediately add all spices. Toast for 30 seconds until aromatic.\n\nAdd the rest of the olive oil (2 more tbsp) and tomato and onion puree from blender. Cook until raw smell of onions and tomatoes is going — up to 5 minutes.\n\nTurn down heat to medium. Add chopped chicken breast, cover, and allow to slowly cook. Add small amounts of water as necessary to achieve desired sauce consistency. (Chicken will release its own fat and water into the sauce, so wait a few minutes before adding extra.)\n\nCan be served immediately or left to marinate in curry sauce, then reheated. Serve with rice or chapati/heated flour tortilla.\n\nTo make a more full-flavored curry, try adding garam masala (ground cardamom, cloves, fennel seeds, and nutmeg), along with fresh curry leaves.
+Serves=5
+Spiciness=0
+Diets=19
+DefaultImage=0
+Images=chickencurry.jpg;
+Created=2017-1-20 2:6:45
+Modified=2017-2-25 3:44:4
+
+[R_White_fish_for_people_who_dont_like_fish__by_fyksen]
+Name=White fish for people who dont like fish.
+Author=fyksen
+Description=It is a fantastic dish for those of us that dont love fish, but know we have to eat it to stay healthy.\n\nThe key to get this dish good is to have high temperature on the stove when first frying the fish. Then turn it down after the initial fry.
+Cuisine=mediterranean
+Season=winter
+Category=entree
+PrepTime=Less than 15 minutes
+CookTime=45 minutes to an hour
+Ingredients=400	g	white fish	\n5	g	thyme	\n5	g	rosemary	\n5	g	Oil	\n15	g	Butter	\n5	g	Garlic	
+Instructions=Set the stove to high (8/10), then put a good amount of oil in it. Any type of oil will do.\n\nRemove bone and skin from the fish (if any), and add salt and pepper. Give the stove some minutes to get really hot. Then put the fish in. 2-3 min on each side.\n\nTurn the temperature down to low (3/10). Add two spoons of butter, some thyme, rosemary and garlic. When the butter have melted, use a spoon to poor the melted butter and spice mix over the fish fillet.\n\nAfter about 5 minutes your fish will be done. You can serve it with potatoes, rice, or noodles. Everything works.
+Serves=2
+Spiciness=0
+Diets=11
+DefaultImage=0
+Images=whitefish1.jpg;whitefish2.jpg;whitefish3.jpg;whitefish4.jpg;
+Created=2017-1-23 20:27:0
+Modified=2017-2-25 3:44:4
+
+[R_Wholesome_Crackers_by_bastian]
+Name=Wholesome Crackers
+Author=bastian
+Description=Crackers are a fulfilling alternative snack and keeps your stomach going. Crackers consist of seeds, oat and flour. The recipe described here is very flexible. You can use whichever seeds, nuts and flour types you may have. I've personally tried almonds, sesame seeds, chia seeds, rye grains, millet and  buckwheat.
+Cuisine=nordic
+Season=winter
+Category=snacks
+PrepTime=Less than 15 minutes
+CookTime=15 to 30 minutes
+Ingredients=3 1/2	dl	Flour	\n1	dl	Oatmeal	\n1	dl	Linseeds	\n1	dl	Sunflower seeds	\n1	dl	Pumpkin seeds	\n1	tsp	Baking powder	\n2	tsp	Salt	\n1 1/2	dl	Water	\n1/2	dl	Oil	
+Instructions=Turn on the oven at [temperature:200C]. Mix all dry ingredients (seeds, flour, oatmeal, baking powder and salt) together. Mix oil. Then add water gradually while mixing until the dough is firm and pasty. If you add too much water, the dough will end up sticking too much to the baking paper.\n\nCut a sheet of baking paper at the size of a baking tray and place the dough on it. Cut another sheet of baking paper and put on top. Use a rolling pin on top of the second baking sheet to flatten the dough. Make the dough as thing as possible. Afterwards, take off the second sheet. Bring forth a knife and cut creases from horizontally and vertically to form squares (see example on the picture). Optionally decorate with extra seeds on top before inserting into the preheated oven.\nWait for the crackers to become crisp, this takes around 17 minutes. You can check if they are done by touching the crackers or by pulling up a bit in the baking sheet and see if the crackers in the middle still bends.  The crackers take on a yellow golden color when they are done.\n\nTake out the crackers and leave them on the kitchen table to cool down for a few minutes.
+Serves=4
+Spiciness=0
+Diets=30
+DefaultImage=0
+Images=wholesale-crackers.jpg;
+Created=2016-12-12 20:48:27
+Modified=2017-2-25 3:44:4

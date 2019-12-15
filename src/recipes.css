@@ -1,0 +1,511 @@
+/* headings on the recipes page */
+.heading {
+  padding: 20px 0 10px 0;
+}
+
+popover .heading {
+  padding: 0 0 10px 0;
+}
+
+.heading > label,
+label.heading {
+  font: 16px Cantarell;
+  font-weight: bold;
+}
+
+label.welcome.heading {
+  font: 32px Cantarell;
+  font-weight: bold;
+}
+
+label.sidebar {
+  background: none;
+  border: none;
+  padding: 10px;
+}
+
+scrolledwindow.error {
+  border: 1px solid red;
+  background: red;
+}
+
+box.searchbar {
+  border-bottom: 1px solid black;
+}
+
+button.circular.small {
+  padding: 0px;
+}
+
+image.checkmark.checked {
+	color: inherit;
+}
+
+image.checkmark:not(.checked) {
+	color: transparent;
+}
+
+image.framed {
+  border: 1px solid @borders;
+  border-radius: 4px;
+}
+
+.image-switcher {
+  background: none;
+}
+
+image.chef.circular {
+	border-radius: 9990px;
+}
+
+.chef.tile {
+  min-width: 258px;
+}
+
+label.chef.name {
+  background: @theme_base_color;
+  color: @theme_fg_color;
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+.view.tile {
+  padding: 0;
+  text-shadow: none;
+  border: 1px solid @borders;
+  background: @theme_base_color;
+  border-radius: 0;
+}
+
+.favorites.view.tile {
+  background: @theme_selected_bg_color;
+  border: 1px solid @selected_borders;
+  box-shadow: none;
+}
+
+.favorites.view.tile:backdrop {
+  background: @theme_unfocused_selected_bg_color;
+  border: 1px solid @selected_borders;
+}
+
+.favorites.view.tile label,
+.favorites.view.tile image {
+  color: @theme_selected_fg_color;
+}
+
+.favorites.view.tile label:backdrop,
+.favorites.view.tile image:backdrop {
+  color: @theme_unfocused_selected_fg_color;
+}
+
+.recipe.view.tile {
+  color: mix(@theme_base_color,@theme_fg_color,0.1);
+  background-image: -gtk-recolor(url('resource:///org/gnome/Recipes/org.gnome.Recipes-symbolic.symbolic.png'));
+  background-size: 100%;
+  background-position: 80px -80px;
+  min-width: 258px;
+  min-height: 200px;
+}
+
+.recipe.view.small.tile {
+  background-image: none;
+  min-width: 258px;
+  min-height: 64px;
+}
+
+box.recipe.name {
+  background: @theme_base_color;
+  color: @theme_fg_color;
+}
+
+label.recipe.name {
+  background: @theme_base_color;
+  color: @theme_fg_color;
+  font-weight: bold;
+  font-size: 110%;
+  padding: 10px 10px 0;
+}
+
+label.recipe.author {
+  background: @theme_base_color;
+  color: mix(@theme_base_color,@theme_fg_color,0.7);
+  font-size: 100%;
+  padding: 0 10px 10px;
+}
+
+label.recipe.author.small,
+label.recipe.name.small {
+  background: @theme_base_color;
+}
+
+@define-color diet_tag_bg #cc1212;
+@define-color diet_tag_fg #ffffff;
+
+.diet-tag {
+  background-image: none;
+  background-color: @diet_tag_bg;
+  color: @diet_tag_fg;
+
+  border-radius: 4px;
+  border-width: 0;
+
+  margin: 2px;
+  padding: 4px;
+}
+
+.diet-tag:hover {
+  background-color: shade(@diet_tag_bg, 1.10);
+  color: @diet_tag_fg;
+}
+
+.diet-tag.button,
+.diet-tag.button:hover,
+.diet-tag.button:active,
+.diet-tag.button:active:hover {
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
+  border-image: none;
+  border-width: 0;
+}
+
+.diet-tag.button:hover {
+    color: shade(@diet_tag_bg, 2.10);
+}
+
+@define-color meal_tag_bg #65a434;
+@define-color meal_tag_fg #ffffff;
+
+.meal-tag {
+  background-image: none;
+  background-color: @meal_tag_bg;
+  color: @meal_tag_fg;
+
+  border-radius: 4px;
+  border-width: 0;
+
+  margin: 2px;
+  padding: 4px;
+}
+
+.meal-tag:hover {
+    background-color: shade(@meal_tag_bg, 1.10);
+    color: @meal_tag_fg;
+}
+
+.meal-tag.button,
+.meal-tag.button:hover,
+.meal-tag.button:active,
+.meal-tag.button:active:hover {
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
+  border-image: none;
+  border-width: 0;
+}
+
+.meal-tag.button:hover {
+    color: shade(@meal_tag_bg, 2.10);
+}
+
+@define-color spice_tag_bg #c12c87;
+@define-color spice_tag_fg #ffffff;
+
+.spice-tag {
+  background-image: none;
+  background-color: @spice_tag_bg;
+  color: @spice_tag_fg;
+
+  border-radius: 4px;
+  border-width: 0;
+
+  margin: 2px;
+  padding: 4px;
+}
+
+.spice-tag:hover {
+    background-color: shade(@spice_tag_bg, 1.10);
+    color: @spice_tag_fg;
+}
+
+.spice-tag.button,
+.spice-tag.button:hover,
+.spice-tag.button:active,
+.spice-tag.button:active:hover {
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
+  border-image: none;
+  border-width: 0;
+}
+
+.spice-tag.button:hover {
+    color: shade(@spice_tag_bg, 2.10);
+}
+
+@define-color ingredient_tag_bg #3465a4;
+@define-color ingredient_tag_fg #ffffff;
+
+.ingredient-tag {
+  background-image: none;
+  background-color: @ingredient_tag_bg;
+  color: @ingredient_tag_fg;
+
+  border-radius: 4px;
+  border-width: 0;
+
+  margin: 2px;
+  padding: 4px;
+}
+
+.ingredient-tag:hover {
+    background-color: shade(@ingredient_tag_bg, 1.10);
+    color: @ingrdient_tag_fg;
+}
+
+.ingredient-tag.button,
+.ingredient-tag.button:hover,
+.ingredient-tag.button:active,
+.ingredient-tag.button:active:hover {
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
+  border-image: none;
+  border-width: 0;
+}
+
+.ingredient-tag.button:hover {
+  color: shade(@ingredient_tag_bg, 2.10);
+}
+
+image.very-spicy {
+        color: red;
+}
+
+.preview-list {
+	background: black;
+}
+
+.favorite-button:hover,
+.favorite-button:checked {
+  color: red;
+}
+
+.shop-button:hover,
+.shop-button:checked {
+  color: shade(green, 1.1);
+}
+
+.favorite-button:not(:hover),
+.shop-button:not(:hover) {
+  background-image: none;
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.favorite-button:backdrop,
+.shop-button:backdrop {
+  background: transparent;
+}
+
+flowbox flowboxchild {
+  padding: 0;
+  border-radius: 0;
+}
+
+.image-page {
+        background: black;
+}
+
+.image-page .content {
+        border: 1px solid white;
+}
+
+button.osd {
+        padding: 10px;
+}
+
+.cooking {
+        background: #2e3436;
+}
+
+.cooking.overlay {
+        background: rgba(160,160,160,0.9);
+        padding: 32px;
+        border-radius: 16px;
+}
+
+.cooking .heading {
+        font-size: 150%;
+        margin-bottom: 1em;
+}
+
+.cooking-image {
+        color: #ddd;
+        background-color: transparent;
+        border: 1px solid black;
+}
+
+.cooking.confirm > label:not(.heading) {
+        margin-bottom: 20px;
+}
+
+box.cooking.overlay.confirm {
+        padding: 0;
+}
+
+box.cooking.overlay.confirm button {
+        background: transparent;
+        padding: 10px;
+        text-shadow: none;
+}
+
+box.cooking.overlay.confirm button {
+        background: gray;
+}
+
+box.cooking.overlay.confirm button:first-child {
+        border-radius: 0 0 0 16px;
+}
+
+box.cooking.overlay.confirm button:last-child {
+        border-radius: 0 0 16px 0;
+}
+
+.timer-label,
+.cooking-label {
+        font-size: 30px;
+        color: #ddd;
+}
+
+.cooking-heading {
+        font-size: 20px;
+        color: #ddd;
+}
+
+.timer-frame border {
+        border: none;
+}
+
+.pause-button {
+        color: #ccc;
+        border-color: #ccc;
+        border-width: 1px;
+        box-shadow: none;
+        background: #444;
+}
+
+.timer {
+        color: #ccc;
+}
+
+label.yield-overlay {
+        background-color: @theme_selected_bg_color;
+        color: @theme_selected_fg_color;
+        padding: 5px;
+        min-width: 20px;
+        min-height: 20px;
+}
+
+label.notification-label {
+        padding: 0 80px 0 0;
+        font-weight: bold;
+}
+
+.image-button.osd {
+  margin: 16px;
+}
+
+.cooking-button {
+  font-size: 30px;
+  color: #ddd;
+}
+
+dialog.about image.logo-image {
+  background: url("resource:///org/gnome/Recipes/org.gnome.Recipes.png");
+  background-size: 256px;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 256px;
+  min-height: 256px;
+  transition-property: min-height, min-width, background-size;
+  transition-duration: 600ms;
+  transition-timing-function: ease-out;
+}
+
+dialog.about image.logo-image.small {
+  background-size: 1px;
+  min-width: 1px;
+  min-height: 1px;
+  transition-property: min-height, min-width, background-size;
+  transition-duration: 600ms;
+  transition-timing-function: cubic-bezier(0.9,-0.06,0.58,0.59);
+}
+
+dialog.about box.dialog-vbox {
+  min-height: 460px;
+}
+
+.drag-handle {
+  opacity: 0.333;
+  border-right: 1px solid gray;
+}
+
+label.error {
+  text-decoration: underline wavy red;
+}
+
+row:first-child {
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+
+row:not(:first-child) {
+  border-top: 1px solid alpha(gray,0.5);
+  border-bottom: 1px solid transparent;
+}
+
+.editable row:not(.drag-hover-bottom):last-child {
+  border-bottom: 1px solid alpha(gray,0.5);
+}
+
+row.drag-row {
+  color: gray;
+  background: alpha(gray,0.2);
+}
+
+row.drag-row.drag-hover {
+  border-top: 1px solid #4e9a06;
+  border-bottom: 1px solid #4e9a06;
+}
+
+row.drag-hover image,
+row.drag-hover label {
+  color: #4e9a06;
+}
+
+row.drag-hover-top {
+  border-top: 1px solid #4e9a06;
+}
+
+row.drag-hover-bottom {
+  border-bottom: 1px solid #4e9a06;
+}
+
+.surprise {
+  background: white;
+  color: black;
+}
+
+label.surprise.image {
+  color: #008bc5;
+  font: 40px Source Sans Pro Light;
+}
+
+label.surprise.heading {
+  color: #008bc5;
+  font: 32px Cantarell;
+  font-weight: bold;
+  padding: 0;
+}

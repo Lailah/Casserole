@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface domain="gnome-recipes">
+  <template class="GrCuisinePage" parent="GtkBox">
+    <property name="visible">True</property>
+    <property name="orientation">horizontal</property>
+    <child>
+      <object class="GtkStack" id="stack">
+        <property name="visible">1</property>
+        <child>
+          <object class="GtkBox">
+            <property name="visible">1</property>
+            <child>
+              <object class="GtkScrolledWindow">
+                <property name="visible">1</property>
+                <property name="hscrollbar-policy">never</property>
+                <child>
+                  <object class="GtkListBox" id="sidebar">
+                    <property name="visible">1</property>
+                    <property name="vexpand">1</property>
+                    <signal name="row-selected" handler="row_selected" swapped="yes"/>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkScrolledWindow" id="scrolled_window">
+                <property name="visible">1</property>
+                <property name="expand">1</property>
+                <property name="hscrollbar-policy">never</property>
+                <child>
+                  <object class="GtkBox" id="category_box">
+                    <property name="visible">1</property>
+                    <property name="halign">center</property>
+                    <property name="valign">start</property>
+                    <property name="margin-start">60</property>
+                    <property name="margin-end">60</property>
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <object class="GtkLabel" id="cuisine_label">
+                        <property name="visible">1</property>
+                        <property name="halign">start</property>
+                        <property name="wrap">1</property>
+                        <property name="width-chars">85</property>
+                        <property name="max-width-chars">85</property>
+                        <property name="margin-top">20</property>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="name">cuisine</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkBox">
+            <property name="visible">1</property>
+            <property name="halign">center</property>
+            <property name="valign">center</property>
+            <property name="orientation">vertical</property>
+            <property name="spacing">10</property>
+            <child>
+              <object class="GtkImage">
+                <property name="visible">1</property>
+                <property name="icon-name">org.gnome.Recipes-symbolic</property>
+                <property name="pixel-size">128</property>
+                <style>
+                  <class name="dim-label"/>
+                </style>
+              </object>
+            </child>
+            <child>
+              <object class="GtkLabel" id="empty_title">
+                <property name="visible">1</property>
+                <property name="label" translatable="yes">No recipes found</property>
+                <style>
+                  <class name="dim-label"/>
+                </style>
+                <attributes>
+                  <attribute name="scale" value="1.2"/>
+                  <attribute name="weight" value="bold"/>
+                </attributes>
+              </object>
+            </child>
+            <child>
+              <object class="GtkLabel" id="empty_subtitle">
+                <property name="visible">1</property>
+                <property name="label" translatable="yes">There are no recipes for this cuisine.</property>
+                <style>
+                  <class name="dim-label"/>
+                </style>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="name">empty</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

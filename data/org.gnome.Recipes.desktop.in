@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Recipes
+Comment=GNOME cooks unite!
+Exec=gnome-recipes %f
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=org.gnome.Recipes
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Utility;GTK;GNOME;
+DBusActivatable=true
+MimeType=application/vnd.gnome.recipes.export;

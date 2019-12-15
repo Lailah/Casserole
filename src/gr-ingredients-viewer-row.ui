@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface domain="gnome-recipes">
+  <template class="GrIngredientsViewerRow" parent="GtkListBoxRow">
+    <property name="visible">1</property>
+    <signal name="focus-in-event" handler="edit_unit_or_focus_out" swapped="yes"/>
+    <signal name="key-press-event" handler="drag_key_press" swapped="yes"/>
+    <child>
+      <object class="GtkBox" id="box">
+        <property name="visible">1</property>
+        <property name="spacing">10</property>
+        <child>
+          <object class="GtkEventBox" id="drag_handle">
+            <property name="visible" bind-source="GrIngredientsViewerRow" bind-property="editable" bind-flags="default|sync-create"/>
+            <style>
+              <class name="drag-handle"/>
+            </style>
+            <child>
+              <object class="GtkImage">
+                <property name="visible">1</property>
+                <property name="icon-name">view-more-symbolic</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkStack" id="unit_stack">
+            <property name="visible">1</property>
+            <child>
+              <object class="GtkEventBox" id="unit_event_box">
+                <property name="visible">1</property>
+                <property name="can-focus">1</property>
+                <signal name="button-press-event" handler="edit_unit" swapped="yes"/>
+                <signal name="focus-in-event" handler="edit_unit" swapped="yes"/>
+                <child>
+                  <object class="GtkLabel" id="unit_label">
+                    <property name="visible">1</property>
+                    <property name="xalign">0</property>
+                    <property name="width-chars">10</property>
+                    <property name="margin-start">9</property>
+                    <property name="margin-end">9</property>
+                    <style>
+                      <class name="dim-label"/>
+                    </style>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkEntry" id="unit_entry">
+                <property name="visible">1</property>
+                <property name="xalign">0</property>
+                <property name="placeholder-text" translatable="yes">Amount</property>
+                <property name="width-chars">10</property>
+                <property name="margin-top">4</property>
+                <property name="margin-bottom">4</property>
+                <signal name="activate" handler="save_unit" swapped="yes"/>
+                <signal name="key-press-event" handler="entry_key_press" swapped="yes"/>
+                <signal name="focus-out-event" handler="save_unit" swapped="yes"/>
+                <signal name="notify::text" handler="unit_text_changed" swapped="yes"/>
+              </object>
+              <packing>
+                <property name="name">unit_entry</property>
+              </packing>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkStack" id="ingredient_stack">
+            <property name="visible">1</property>
+            <child>
+              <object class="GtkEventBox" id="ingredient_event_box">
+                <property name="visible">1</property>
+                <property name="can-focus">1</property>
+                <signal name="button-press-event" handler="edit_ingredient" swapped="yes"/>
+                <signal name="focus-in-event" handler="edit_ingredient" swapped="yes"/>
+                <child>
+                  <object class="GtkLabel" id="ingredient_label">
+                    <property name="visible">1</property>
+                    <property name="xalign">0</property>
+                    <property name="width-chars">20</property>
+                    <property name="margin-start">9</property>
+                    <property name="margin-end">9</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkEntry" id="ingredient_entry">
+                <property name="visible">1</property>
+                <property name="xalign">0</property>
+                <property name="width-chars">20</property>
+                <property name="placeholder-text" translatable="yes">Ingredient</property>
+                <property name="margin-top">4</property>
+                <property name="margin-bottom">4</property>
+                <signal name="activate" handler="save_ingredient" swapped="yes"/>
+                <signal name="key-press-event" handler="entry_key_press" swapped="yes"/>
+                <signal name="focus-out-event" handler="save_ingredient" swapped="yes"/>
+              </object>
+              <packing>
+                <property name="name">ingredient_entry</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkStack" id="buttons_stack">
+            <property name="visible">1</property>
+            <property name="halign">end</property>
+            <property name="transition-type">none</property>
+            <child>
+              <object class="GtkImage">
+                <property name="visible">1</property>
+                <property name="opacity">0</property>
+              </object>
+              <packing>
+                <property name="name">empty</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkBox">
+                <property name="visible">1</property>
+                <property name="orientation">horizontal</property>
+                <property name="margin">4</property>
+                <child>
+                  <object class="GtkButton">
+                    <property name="visible">1</property>
+                    <property name="relief">none</property>
+                    <signal name="clicked" handler="emit_delete" swapped="yes"/>
+                    <style>
+                      <class name="image-button"/>
+                      <class name="circular"/>
+                    </style>
+                    <child>
+                      <object class="GtkImage">
+                        <property name="visible">1</property>
+                        <property name="icon-name">user-trash-symbolic</property>
+                        <property name="icon-size">1</property>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+              <packing>
+                <property name="name">buttons</property>
+              </packing>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+  <object class="GtkPopover" id="unit_help_popover">
+    <property name="relative-to">unit_entry</property>
+    <property name="constrain-to">none</property>
+    <property name="modal">0</property>
+    <child>
+      <object class="GtkGrid">
+        <property name="visible">1</property>
+        <property name="margin">12</property>
+        <property name="column-spacing">20</property>
+        <child>
+          <object class="GtkLabel">
+            <property name="visible">1</property>
+            <property name="xalign">0</property>
+            <property name="margin-bottom">10</property>
+            <property name="label" translatable="yes">Use a number, followed by an (optional) unit.</property>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="visible">1</property>
+            <property name="xalign">0</property>
+            <property name="label" translatable="yes">Examples: 1 kg, 2 1/2 pounds, 250 ml, 6</property>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">2</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

@@ -1,0 +1,157 @@
+[Metadata]
+Version=1
+
+[aday]
+Image=images/allan_day.jpg
+Name=Allan
+Fullname=Allan Day
+Description=I cook a lot, particularly Italian and Indian.
+
+[adelia]
+Image=images/adelia.jpg
+Name=adeliabakes
+Fullname=Adelia Rahim
+Description=A Kuala Lumpur native, transplanted to San Francisco. I bake, I cook, I work on GNOME engagement stuff occasionally. Every now and then I travel between North America, Asia and Europe. Follow me @adeliabakes.
+
+[adria]
+Image=images/adria.jpg
+Name=adria
+Fullname=Adrià Arrufat
+Description=Adrià is originally from Barcelona, Spain.
+
+[afranke]
+Image=images/afranke.jpg
+Name=Alexandre
+Fullname=Alexandre Franke
+Description=Being from Strasbourg, Alexandre is knowledgeable about both Alsatian and French cuisine, but he's not afraid to experiment in other ones as well.
+
+[bastian]
+Image=images/Bastian.jpg
+Name=Bastian
+Fullname=Bastian Ilsø
+Description=The nordic cuisine maestro.
+
+[bruce]
+Image=images/pro.jpg
+Name=Bruce
+Fullname=Bruce Bannock
+Description=I love to blend and juice.
+
+[ebassi]
+Image=images/ebassi-hackergotchi.png
+Name=ebassi
+Fullname=Emmanuele Bassi
+Description=He cooks with GTK+
+
+[elvin]
+Image=images/elvin.jpg
+Name=Elvin
+Fullname=Emel Elvin Yıldız
+Description=Elvin lives in Istanbul.
+
+[erusan]
+Image=images/erusan.gif
+Name=Erusan
+Fullname=Erusan
+Description=Erusan is an American who has lived all over the country, loves GNOME, and enjoys cooking — primarily American, Asian, and Indian cuisine.
+
+
+[eugene]
+Image=images/eugene.jpg
+Name=Eugene
+Fullname=Eugene Shaddow
+Description=Just another chef
+
+[feaneron]
+Image=images/feaneron.png
+Name=Georges
+Fullname=Georges Basile Stavracas Neto
+Description=Georges is a vegan samurai, a GNOME contributor, and sometimes both.
+
+[florian]
+Name=Florian
+Fullname=Florian Pelz
+Description=Just another chef
+
+[fyksen]
+Image=images/fyksen.jpg
+Name=Frederik
+Fullname=Fredrik Fyksen
+Description=My name is Fredrik Fyksen. I am from Norway, but live in Denmark. I like food, computers and music. You can read more about me at <a href="https://www.fyksen.me/">fyksen.me</a>.
+
+[halfline]
+Image=images/halfline.jpg
+Name=halfline
+Fullname=Ray Strode
+Description=Ray is a Desktop Software Engineer at Red Hat and vegetarian who occasionally enjoys cooking.
+
+[hugh]
+Image=images/hugh
+Name=Hugh
+Fullname=Hugh Smalley
+Description=Dad with a sysadmin problem/hobby
+
+[link]
+Image=images/Sonic.jpg
+Name=Link
+Fullname=Link Dupont
+Description=Just Link.
+
+[mclasen]
+Image=images/mclasen.jpg
+Name=Matthias
+Fullname=Matthias Clasen
+Description=Matthias is a manager in the Desktop team at Red Hat. He likes to cook as much as he likes to code.
+
+[mwleeds]
+Image=images/mwleeds.jpg
+Name=Matthew
+Fullname=Matthew Leeds
+Description=Matthew is a vegan and a Computer Science student who loves FOSS.
+
+[peter]
+Image=images/peter.jpg
+Name=Peter
+Fullname=Peter
+Description=I'm cooking from time to time and started to add recipes here.
+
+[primulas]
+Image=images/Miss_Sofia_Holmes.jpg
+Name=Sofia
+Fullname=Sofia Holmes
+Description=Artist, Computer Scientist, Translator.\nI love cooking and learning.
+
+[snwh]
+Image=images/snwh
+Name=snwh
+Fullname=Sam Hewitt
+Description=Another designer who loves to cook
+
+[spooky]
+Image=images/bf_profile.jpg
+Name=Keefer
+Fullname=Keefer Rourke
+Description=Computer science student and aspiring software developer.\n<a href="https://krourke.org">https://krourke.org</a>
+
+[sri]
+Image=images/sri_pic.png
+Name=Sri
+Fullname=Sriram Ramkrishna
+Description=GNOME contributor and cook
+
+[sylvia]
+Image=images/geisha.jpg
+Name=Sylvia
+Fullname=Sylvia Sanchez
+Description=Artist, Computer Scientist, Traveller.\nI love cooking. :)
+
+[tigert]
+Image=images/tigert.jpg
+Name=Tuomas
+Fullname=Tuomas Kuosmanen
+Description=Aviation, making stuff, in Finland.
+
+[tobias]
+Name=tobias
+Fullname=Tobias Jakobs
+Description=Just another chef

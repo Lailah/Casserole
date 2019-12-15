@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface domain="gnome-recipes">
+  <template class="GrShoppingTile" parent="GtkButton">
+    <property name="visible">True</property>
+    <signal name="clicked" handler="tile_clicked" swapped="yes"/>
+    <style>
+      <class name="view"/>
+      <class name="tile"/>
+      <class name="recipe"/>
+      <class name="small"/>
+    </style>
+    <child>
+      <object class="GtkEventBox">
+        <property name="visible">1</property>
+        <child>
+          <object class="GtkBox" id="box">
+            <property name="visible">1</property>
+            <child>
+              <object class="GtkImage" id="image">
+                <property name="width-request">64</property>
+                <property name="height-request">64</property>
+                <property name="visible">1</property>
+                <style>
+                  <class name="recipe"/>
+                  <class name="small"/>
+                </style>
+              </object>
+            </child>
+            <child>
+              <object class="GtkBox">
+                <property name="visible">1</property>
+                <property name="orientation">vertical</property>
+                <child>
+                  <object class="GtkLabel" id="label">
+                    <property name="visible">1</property>
+                    <property name="valign">end</property>
+                    <property name="xalign">0</property>
+                    <property name="ellipsize">end</property>
+                    <property name="width-chars">12</property>
+                    <property name="max-width-chars">12</property>
+                    <style>
+                      <class name="recipe"/>
+                      <class name="small"/>
+                      <class name="name"/>
+                    </style>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkLabel" id="author">
+                    <property name="visible">1</property>
+                    <property name="valign">end</property>
+                    <property name="xalign">0</property>
+                    <property name="ellipsize">end</property>
+                    <property name="width-chars">12</property>
+                    <property name="max-width-chars">12</property>
+                    <style>
+                      <class name="recipe"/>
+                      <class name="small"/>
+                      <class name="author"/>
+                    </style>
+                  </object>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="yield_label">
+                <property name="visible">1</property>
+                <property name="halign">end</property>
+                <property name="valign">start</property>
+                <style>
+                  <class name="yield-overlay"/>
+                </style>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+  <object class="GtkAdjustment" id="yield_adjustment">
+    <property name="lower">1</property>
+    <property name="upper">99</property>
+    <property name="step-increment">1</property>
+    <property name="page-increment">10</property>
+  </object>
+  <object class="GtkPopover" id="popover">
+    <property name="relative-to">yield_label</property>
+    <child>
+      <object class="GtkGrid">
+        <property name="visible">1</property>
+        <property name="margin">10</property>
+        <property name="row-spacing">10</property>
+        <property name="column-spacing">10</property>
+        <child>
+          <object class="GtkLabel">
+            <property name="visible">1</property>
+            <property name="xalign">0</property>
+            <property name="label" translatable="yes">Yield</property>
+            <property name="valign">baseline</property>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkSpinButton" id="yield_spin">
+            <property name="visible">1</property>
+            <property name="adjustment">yield_adjustment</property>
+            <property name="width-chars">4</property>
+            <property name="valign">baseline</property>
+            <signal name="value-changed" handler="yield_spin_value_changed" swapped="yes"/>
+            <signal name="input" handler="yield_spin_input"/>
+            <signal name="output" handler="yield_spin_output"/>
+          </object>
+          <packing>
+            <property name="left-attach">1</property>
+            <property name="top-attach">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="yield_unit_label">
+            <property name="visible">1</property>
+            <property name="valign">baseline</property>
+          </object>
+          <packing>
+            <property name="left-attach">2</property>
+            <property name="top-attach">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="remove_button">
+            <property name="visible">1</property>
+            <property name="label" translatable="yes">Remove</property>
+            <signal name="clicked" handler="remove_recipe" swapped="yes"/>
+            <style>
+              <class name="text-button"/>
+              <class name="destructive-action"/>
+            </style>
+          </object>
+          <packing>
+            <property name="left-attach">0</property>
+            <property name="top-attach">1</property>
+            <property name="width">3</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

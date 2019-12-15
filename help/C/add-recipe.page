@@ -1,0 +1,25 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="guide" style="task 2column"
+      id="add-recipe">
+
+  <info>
+    <link type="guide" xref="index#manage" group="first"/>
+    <desc>Learn how to add your own recipe.</desc>
+    <revision pkgversion="3.24" version="0.1" date="2017-03-21" status="draft"/>
+    <credit type="author">
+      <name>Paul Cutler</name>
+      <email its:translate="no">pcutler@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 4.0</p>
+    </license>
+  </info>
+
+  <title>Add a Recipe</title>
+
+  <p>If you are new to <app>Recipes</app>, these topics will help you to
+  add the following categories to a recipe.</p>
+  
+  <links type="topic" groups="first second third fourth fifth sixth" style="2column"/>
+</page>

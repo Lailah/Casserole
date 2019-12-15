@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.gnome.Recipes
+Exec=@BINDIR@/gnome-recipes --gapplication-service

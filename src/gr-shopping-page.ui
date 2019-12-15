@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface domain="gnome-recipes">
+  <template class="GrShoppingPage" parent="GtkBox">
+    <property name="visible">True</property>
+    <property name="orientation">vertical</property>
+    <child>
+      <object class="GtkScrolledWindow">
+        <property name="visible">1</property>
+        <property name="expand">1</property>
+        <property name="hscrollbar-policy">never</property>
+        <child>
+          <object class="GtkBox">
+            <property name="visible">1</property>
+            <property name="orientation">vertical</property>
+            <property name="halign">center</property>
+            <property name="margin-start">60</property>
+            <property name="margin-end">60</property>
+            <child>
+              <object class="GtkBox">
+                <property name="visible">1</property>
+                <property name="spacing">20</property>
+                <property name="margin-top">20</property>
+                <property name="margin-bottom">20</property>
+                <child>
+                  <object class="GtkImage">
+                    <property name="visible">1</property>
+                    <property name="valign">end</property>
+                    <property name="icon-name">shopping-list-symbolic</property>
+                    <property name="pixel-size">48</property>
+                    <style>
+                      <class name="heading"/>
+                    </style>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">1</property>
+                    <property name="xalign">0</property>
+                    <property name="valign">end</property>
+                    <property name="label" translatable="yes">Buy ingredients</property>
+                    <style>
+                      <class name="heading"/>
+                    </style>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkLabel" id="recipe_count_label">
+                <property name="visible">1</property>
+                <property name="xalign">0</property>
+                <property name="margin-bottom">10</property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkFlowBox" id="recipe_list">
+                <property name="visible">1</property>
+                <property name="halign">center</property>
+                <property name="valign">start</property>
+                <property name="row-spacing">20</property>
+                <property name="column-spacing">20</property>
+                <property name="margin-bottom">20</property>
+                <property name="homogeneous">1</property>
+                <property name="min-children-per-line">3</property>
+                <property name="max-children-per-line">3</property>
+                <property name="selection-mode">none</property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkLabel" id="ingredients_count_label">
+                <property name="visible">1</property>
+                <property name="xalign">0</property>
+                <property name="margin-bottom">10</property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBox" id="ingredients_list">
+                <property name="visible">1</property>
+                <property name="margin-bottom">10</property>
+                <property name="selection-mode">none</property>
+                <property name="activate-on-single-click">1</property>
+                <signal name="row-activated" handler="row_activated"/>
+                <style>
+                  <class name="frame"/>
+                </style>
+                <child type="placeholder">
+                  <object class="GtkLabel">
+                    <property name="visible">1</property>
+                    <property name="margin-start">20</property>
+                    <property name="margin-end">20</property>
+                    <property name="margin-top">10</property>
+                    <property name="margin-bottom">10</property>
+                    <property name="label" translatable="yes">No shopping necessary!</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkMenuButton" id="add_button">
+                <property name="halign">start</property>
+                <property name="popover">add_popover</property>
+                <property name="direction">up</property>
+                <property name="margin-bottom">20</property>
+                <child>
+                  <object class="GtkImage">
+                    <property name="visible">1</property>
+                    <property name="icon-name">list-add-symbolic</property>
+                  </object>
+                </child>
+                <style>
+                  <class name="image-button"/>
+                </style>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="GtkActionBar">
+        <property name="visible">1</property>
+        <child>
+          <object class="GtkButton">
+            <property name="use-underline">1</property>
+            <property name="label" translatable="yes">_Edit</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkButton">
+            <property name="visible">1</property>
+            <property name="use-underline">1</property>
+            <property name="label" translatable="yes">_Clear List</property>
+            <signal name="clicked" handler="clear_list" swapped="yes"/>
+            <style>
+              <class name="destructive-action"/>
+            </style>
+          </object>
+        </child>
+        <child>
+          <object class="GtkButton">
+            <property name="visible">1</property>
+            <property name="use-underline">1</property>
+            <property name="label" translatable="yes">_Share</property>
+            <signal name="clicked" handler="open_export_shopping_list_dialog" swapped="yes"/>
+          </object>
+          <packing>
+            <property name="pack-type">end</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton">
+            <property name="visible">1</property>
+            <property name="use-underline">1</property>
+            <property name="label" translatable="yes">_Print</property>
+            <signal name="clicked" handler="print_list" swapped="yes"/>
+          </object>
+          <packing>
+            <property name="pack-type">end</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </template>
+  <object class="GtkPopover" id="add_popover">
+    <child>
+      <object class="GtkScrolledWindow">
+        <property name="visible">1</property>
+        <property name="margin">10</property>
+        <property name="hscrollbar-policy">never</property>
+        <property name="vscrollbar-policy">never</property>
+        <property name="shadow-type">in</property>
+        <child>
+          <object class="GtkListBox" id="removed_list">
+            <property name="visible">1</property>
+            <property name="selection-mode">none</property>
+            <signal name="row-activated" handler="removed_row_activated"/>
+            <child type="placeholder">
+              <object class="GtkListBoxRow">
+                <property name="visible">1</property>
+                <property name="activatable">0</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">1</property>
+                    <property name="margin-start">20</property>
+                    <property name="margin-end">20</property>
+                    <property name="margin-top">10</property>
+                    <property name="margin-bottom">10</property>
+                    <property name="label" translatable="yes">Nothing to add</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
