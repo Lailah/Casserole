@@ -7,3 +7,9 @@ So far, the programme is the same as the original, but soon it will start to hav
   * Bug fixes 
   * New features 
 
+*Parts of this programme* 
++ Recipes, both imported from the online database & local ones 
++ Cooks, 
++ Ingredients 
++ Measures
+
