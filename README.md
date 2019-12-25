@@ -14,3 +14,7 @@ So far, the programme is the same as the original, but soon it will start to hav
 + Ingredients 
 + Measures
 
+
+Etherpad for proposals and contributions: 
+https://etherpad.gnome.org/p/Casserole
+
