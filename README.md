@@ -14,7 +14,14 @@ So far, the programme is the same as the original, but soon it will start to hav
 + Ingredients 
 + Measures
 
+*For the future*
++ Complete rewrite of the code, including a port to Python and/or Rust
+
+
 
 Etherpad for proposals and contributions: 
 https://etherpad.gnome.org/p/Casserole
+
+
+
 
