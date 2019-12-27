@@ -1,0 +1,58 @@
+Source: gnome-recipes
+Section: gnome
+Priority: optional
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Jeremy Bicha <jbicha@debian.org>
+Build-Depends: appstream-util,
+               debhelper (>= 11),
+               gnome-pkg-tools,
+               itstool,
+               libcanberra-dev,
+               libgirepository1.0-dev (>= 1.42.0),
+               libgnome-autoar-0-dev,
+               libgoa-1.0-dev,
+               libgspell-1-dev,
+               libgtk-3-dev (>= 3.22),
+               libjson-glib-dev,
+               librest-dev,
+               libsoup-gnome2.4-dev,
+               meson (>= 0.36.0),
+               pkg-config (>= 0.22)
+Standards-Version: 4.3.0
+Vcs-Browser: https://salsa.debian.org/gnome-team/gnome-recipes
+Vcs-Git: https://salsa.debian.org/gnome-team/gnome-recipes.git
+Homepage: https://wiki.gnome.org/Apps/Recipes
+
+Package: gnome-recipes
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         default-dbus-session-bus | dbus-session-bus,
+         gnome-recipes-data (>= ${source:Version})
+Description: Recipe application for GNOME
+ GNOME Recipes is an easy-to-use application that will help you to discover
+ what to cook for today, tomorrow, the rest of the week, and your special
+ occasions.
+ .
+ GNOME Recipes comes with a collection of recipes that have been collected
+ by GNOME contributors from all over the world. It also lets you store your
+ own recipes, and share them with your friends.
+
+Package: gnome-recipes-data
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+Recommends: gnome-recipes,
+            yelp
+Description: Recipe application for GNOME (data files)
+ GNOME Recipes is an easy-to-use application that will help you to discover
+ what to cook for today, tomorrow, the rest of the week, and your special
+ occasions.
+ .
+ GNOME Recipes comes with a collection of recipes that have been collected
+ by GNOME contributors from all over the world. It also lets you store your
+ own recipes, and share them with your friends.
+ .
+ This package contains architecture-independent data files.
+
